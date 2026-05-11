@@ -1,0 +1,43 @@
+{
+  "laptops": [
+    { "id": "ban-lap-1", "image": "https://via.placeholder.com/1400x400/0A0A0A/FFD700?text=LAPTOPS+GAMING+%E2%80%94+Las+mejores+marcas", "cta": "VER LAPTOPS", "ctaLink": "/categoria/laptops" },
+    { "id": "ban-lap-2", "image": "https://via.placeholder.com/1400x400/121212/00D4FF?text=ASUS+%E2%80%A2+LENOVO+%E2%80%A2+MSI+%E2%80%A2+HP+%E2%80%A2+ACER", "cta": "VER OFERTAS", "ctaLink": "/categoria/laptops" }
+  ],
+  "gpus": [
+    { "id": "ban-gpu-1", "image": "https://via.placeholder.com/1400x400/0A0A0A/00D4FF?text=TARJETAS+DE+VIDEO+%E2%80%94+NVIDIA+%26+AMD", "cta": "VER GPUs", "ctaLink": "/categoria/gpus" }
+  ],
+  "monitores": [
+    { "id": "ban-mon-1", "image": "https://via.placeholder.com/1400x400/0A0A0A/FFD700?text=MONITORES+%E2%80%94+144Hz+%E2%80%A2+200Hz+%E2%80%A2+QD-OLED", "cta": "VER MONITORES", "ctaLink": "/categoria/monitores" },
+    { "id": "ban-mon-2", "image": "https://via.placeholder.com/1400x400/121212/C9A227?text=LG+%E2%80%A2+SAMSUNG+%E2%80%A2+XIAOMI+%E2%80%A2+TEROS+%E2%80%A2+MICRONICS", "cta": "VER OFERTAS", "ctaLink": "/categoria/monitores" }
+  ],
+  "procesadores": [
+    { "id": "ban-proc-1", "image": "https://via.placeholder.com/1400x400/0A0A0A/00D4FF?text=PROCESADORES+%E2%80%94+Intel+%26+AMD+Ryzen", "cta": "VER PROCESADORES", "ctaLink": "/categoria/procesadores" }
+  ],
+  "ram": [
+    { "id": "ban-ram-1", "image": "https://via.placeholder.com/1400x400/121212/FFD700?text=MEMORIAS+RAM+%E2%80%94+DDR4+y+DDR5", "cta": "VER RAM", "ctaLink": "/categoria/ram" }
+  ],
+  "almacenamiento": [
+    { "id": "ban-alm-1", "image": "https://via.placeholder.com/1400x400/0A0A0A/C9A227?text=ALMACENAMIENTO+%E2%80%94+SSD+NVMe+y+HDD", "cta": "VER ALMACENAMIENTO", "ctaLink": "/categoria/almacenamiento" }
+  ],
+  "placas-madre": [
+    { "id": "ban-mb-1", "image": "https://via.placeholder.com/1400x400/121212/00D4FF?text=PLACAS+MADRE+%E2%80%94+Intel+LGA+%26+AMD+AM4%2FAM5", "cta": "VER PLACAS", "ctaLink": "/categoria/placas-madre" }
+  ],
+  "gabinetes": [
+    { "id": "ban-gab-1", "image": "https://via.placeholder.com/1400x400/0A0A0A/FFD700?text=CASES+%26+GABINETES+%E2%80%94+ATX+%E2%80%A2+mATX+%E2%80%A2+ITX", "cta": "VER CASES", "ctaLink": "/categoria/gabinetes" }
+  ],
+  "fuentes": [
+    { "id": "ban-psu-1", "image": "https://via.placeholder.com/1400x400/121212/C9A227?text=FUENTES+DE+PODER+%E2%80%94+80+Plus+Certificadas", "cta": "VER FUENTES", "ctaLink": "/categoria/fuentes" }
+  ],
+  "refrigeracion": [
+    { "id": "ban-cool-1", "image": "https://via.placeholder.com/1400x400/0A0A0A/00D4FF?text=REFRIGERACI%C3%93N+%E2%80%94+Aire+y+L%C3%ADquida+AIO", "cta": "VER COOLERS", "ctaLink": "/categoria/refrigeracion" }
+  ],
+  "perifericos": [
+    { "id": "ban-per-1", "image": "https://via.placeholder.com/1400x400/121212/FFD700?text=PERIF%C3%89RICOS+%E2%80%94+Teclados+%E2%80%A2+Mouse+%E2%80%A2+Audífonos", "cta": "VER PERIFÉRICOS", "ctaLink": "/categoria/perifericos" }
+  ],
+  "camaras": [
+    { "id": "ban-cam-1", "image": "https://via.placeholder.com/1400x400/0A0A0A/C9A227?text=C%C3%81MARAS+%26+WEBCAMS+%E2%80%94+4K+y+2K", "cta": "VER CÁMARAS", "ctaLink": "/categoria/camaras" }
+  ],
+  "sillas-gamer": [
+    { "id": "ban-silla-1", "image": "https://via.placeholder.com/1400x400/121212/00D4FF?text=SILLAS+GAMER+%E2%80%94+AbaddonX+PVC+y+Tela", "cta": "VER SILLAS", "ctaLink": "/categoria/sillas-gamer" }
+  ]
+}

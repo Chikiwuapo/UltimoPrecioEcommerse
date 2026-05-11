@@ -1,0 +1,15 @@
+[
+  { "slug": "laptops",       "label": "Laptops",           "desc": "Gaming y trabajo", "icon": "Laptop"    },
+  { "slug": "gpus",          "label": "Tarjetas de Video",  "desc": "NVIDIA y AMD",     "icon": "Layers3"   },
+  { "slug": "monitores",     "label": "Monitores",          "desc": "144Hz, 4K y más",  "icon": "Monitor"   },
+  { "slug": "procesadores",  "label": "Procesadores",       "desc": "Intel y AMD",      "icon": "Cpu"       },
+  { "slug": "ram",           "label": "Memorias RAM",       "desc": "DDR4 y DDR5",      "icon": "Server"    },
+  { "slug": "almacenamiento","label": "Almacenamiento",     "desc": "SSD NVMe y HDD",   "icon": "HardDrive" },
+  { "slug": "placas-madre",  "label": "Placas Madre",       "desc": "Intel y AMD chipsets","icon": "CircuitBoard"},
+  { "slug": "gabinetes",     "label": "Cases / Gabinetes",  "desc": "ATX, mATX, ITX",   "icon": "Box"       },
+  { "slug": "fuentes",       "label": "Fuentes de Poder",   "desc": "80 Plus certificadas","icon": "Zap"    },
+  { "slug": "refrigeracion", "label": "Refrigeración",      "desc": "Aire y líquida AIO","icon": "Fan"      },
+  { "slug": "perifericos",   "label": "Periféricos PC",     "desc": "Teclados, mouse, headsets","icon": "Keyboard"},
+  { "slug": "camaras",       "label": "Cámaras / Webcams",  "desc": "4K, 2K y Full HD", "icon": "Camera"    },
+  { "slug": "sillas-gamer",  "label": "Sillas Gamer",       "desc": "PVC y Tela ergonómica","icon": "Armchair"}
+]
