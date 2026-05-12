@@ -129,13 +129,13 @@ export function deleteAdminProduct(productId) {
 }
 
 // ── Banners ──────────────────────────────────
+// Admin banners are ADDED on top of the base JSON banners for each category
 export function getBannersForCategory(slug) {
   const adminBanners = safeJsonParse(KEYS.ADMIN_BANNERS, {})
-  // Admin banners override base banners for that category
-  if (adminBanners[slug] && adminBanners[slug].length > 0) {
-    return adminBanners[slug]
-  }
-  return bannersBase[slug] || []
+  const base         = bannersBase[slug] || []
+  const admin        = adminBanners[slug] || []
+  // Admin banners go first (most recent customizations on top)
+  return [...admin, ...base]
 }
 
 export function saveAdminBanner(slug, banner) {
