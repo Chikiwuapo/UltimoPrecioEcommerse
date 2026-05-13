@@ -6,6 +6,8 @@ import CategoryPage from './pages/CategoryPage'
 import ProductPage  from './pages/ProductPage'
 import AdminLogin   from './pages/AdminLogin'
 import AdminPanel   from './pages/AdminPanel'
+import SearchPage   from './pages/SearchPage'
+import ScrollToTop  from './components/ScrollToTop'
 
 function AdminGuard() {
   const { isAdmin, loading } = useAuth()
@@ -17,8 +19,10 @@ export default function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/"                element={<Home />} />
+          <Route path="/buscar"          element={<SearchPage />} />
           <Route path="/categoria/:slug" element={<CategoryPage />} />
           <Route path="/producto/:slug"  element={<ProductPage />} />
           <Route path="/admin/login"     element={<AdminLogin />} />

@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useEffect, useState, useRef, useMemo, useCallback } from 'react'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import {
   Menu, Search, Sun, Moon, X, ChevronDown,
   Laptop, Monitor, Keyboard, HardDrive, Camera, Armchair,
@@ -7,7 +7,7 @@ import {
   Truck, Shield, Tag, ShieldCheck,
 } from 'lucide-react'
 import logo from '../assets/UltimoPrecioRemaster.png'
-import { getActiveCategories } from '../data/index'
+import { getActiveCategories, getAllProducts } from '../data/index'
 import { useAuth } from '../context/AuthContext'
 
 // Icon map keyed by slug
@@ -27,38 +27,169 @@ const ICON_MAP = {
   'sillas-gamer': Armchair,
 }
 
-// Quick links shown in the navbar strip (first 5 active categories)
+const CAT_COLORS = {
+  laptops:        '#00D4FF',
+  gpus:           '#A855F7',
+  monitores:      '#22D3EE',
+  procesadores:   '#F97316',
+  ram:            '#10B981',
+  almacenamiento: '#6366F1',
+  'placas-madre': '#EAB308',
+  gabinetes:      '#94A3B8',
+  fuentes:        '#FFD700',
+  refrigeracion:  '#38BDF8',
+  perifericos:    '#F43F5E',
+  camaras:        '#84CC16',
+  'sillas-gamer': '#EC4899',
+}
+
+const MAX_SUGGESTIONS = 6
+
 function getQuickLinks(activeCategories) {
   return activeCategories.slice(0, 5)
+}
+
+// Highlight matching text
+function Highlight({ text, query }) {
+  if (!query) return <span>{text}</span>
+  const idx = text.toLowerCase().indexOf(query.toLowerCase())
+  if (idx === -1) return <span>{text}</span>
+  return (
+    <span>
+      {text.slice(0, idx)}
+      <mark className="bg-[#FFD700]/30 text-[#C9A227] dark:text-[#FFD700] rounded px-0.5 not-italic font-bold">
+        {text.slice(idx, idx + query.length)}
+      </mark>
+      {text.slice(idx + query.length)}
+    </span>
+  )
 }
 
 export default function Header() {
   const { isAdmin } = useAuth()
   const navigate    = useNavigate()
+  const [searchParams] = useSearchParams()
 
   const [theme, setTheme] = useState(() => {
     try { return localStorage.getItem('theme') || 'dark' } catch { return 'dark' }
   })
-  const [mobileOpen, setMobileOpen] = useState(false)
-  const [megaOpen,   setMegaOpen]   = useState(false)
-  const [searchVal,  setSearchVal]  = useState('')
+  const [mobileOpen,   setMobileOpen]   = useState(false)
+  const [megaOpen,     setMegaOpen]     = useState(false)
+  const [searchVal,    setSearchVal]    = useState('')
+  const [suggestions,  setSuggestions]  = useState([])
+  const [showDrop,     setShowDrop]     = useState(false)
+  const [activeIdx,    setActiveIdx]    = useState(-1)
 
-  // Dynamic categories
+  const searchRef  = useRef(null)
+  const inputRef   = useRef(null)
+  const dropRef    = useRef(null)
+
   const activeCategories = getActiveCategories()
   const quickLinks       = getQuickLinks(activeCategories)
+  const allProducts      = useMemo(() => getAllProducts(), [])
+
+  // Sync input with URL param when navigating to /buscar
+  useEffect(() => {
+    const q = searchParams.get('q')
+    if (q) setSearchVal(q)
+  }, [searchParams])
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark')
     localStorage.setItem('theme', theme)
   }, [theme])
 
+  // ── Smart suggestions ──────────────────────────────────────────
+  const computeSuggestions = useCallback((val) => {
+    const q = val.trim().toLowerCase()
+    if (q.length < 2) return []
+
+    const terms = q.split(/\s+/).filter(Boolean)
+
+    const scored = allProducts.map(p => {
+      let score = 0
+      if (p.name.toLowerCase().includes(q))   score += 50
+      if (p.brand?.toLowerCase().includes(q)) score += 30
+      terms.forEach(t => {
+        if (p.name.toLowerCase().includes(t))        score += 10
+        if (p.brand?.toLowerCase().includes(t))      score += 8
+        if (p.category?.toLowerCase().includes(t))   score += 5
+        if (p.description?.toLowerCase().includes(t)) score += 3
+      })
+      if (p.featured) score += 2
+      if (p.stock > 0) score += 1
+      return { ...p, _score: score }
+    })
+
+    return scored
+      .filter(p => p._score > 0)
+      .sort((a, b) => b._score - a._score)
+      .slice(0, MAX_SUGGESTIONS)
+  }, [allProducts])
+
+  useEffect(() => {
+    const s = computeSuggestions(searchVal)
+    setSuggestions(s)
+    setActiveIdx(-1)
+    setShowDrop(searchVal.trim().length >= 2)
+  }, [searchVal, computeSuggestions])
+
+  // Close dropdown on outside click
+  useEffect(() => {
+    function handleClick(e) {
+      if (searchRef.current && !searchRef.current.contains(e.target)) {
+        setShowDrop(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [])
+
   function toggleTheme() {
     setTheme(t => t === 'dark' ? 'light' : 'dark')
   }
 
   function handleSearch(e) {
-    e.preventDefault()
-    // Future: navigate to search results page
+    e?.preventDefault()
+    const q = searchVal.trim()
+    if (!q) return
+    setShowDrop(false)
+    navigate(`/buscar?q=${encodeURIComponent(q)}`)
+  }
+
+  function handleKeyDown(e) {
+    if (!showDrop || suggestions.length === 0) {
+      if (e.key === 'Enter') handleSearch()
+      return
+    }
+    if (e.key === 'ArrowDown') {
+      e.preventDefault()
+      setActiveIdx(i => Math.min(i + 1, suggestions.length - 1))
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault()
+      setActiveIdx(i => Math.max(i - 1, -1))
+    } else if (e.key === 'Enter') {
+      e.preventDefault()
+      if (activeIdx >= 0 && suggestions[activeIdx]) {
+        const p = suggestions[activeIdx]
+        setShowDrop(false)
+        navigate(`/producto/${p.slug}`)
+      } else {
+        handleSearch()
+      }
+    } else if (e.key === 'Escape') {
+      setShowDrop(false)
+    }
+  }
+
+  function handleSuggestionClick(product) {
+    setShowDrop(false)
+    navigate(`/producto/${product.slug}`)
+  }
+
+  function handleViewAll() {
+    setShowDrop(false)
+    navigate(`/buscar?q=${encodeURIComponent(searchVal.trim())}`)
   }
 
   return (
@@ -80,28 +211,129 @@ export default function Header() {
             <img src={logo} alt="El Último Precio" className="h-14 w-auto object-contain" />
           </Link>
 
-          {/* Search bar */}
-          <form onSubmit={handleSearch} className="flex-1 max-w-2xl mx-auto">
-            <div className="flex items-center rounded-full border-2 border-[#C9A227] dark:border-[#C9A227]/50 overflow-hidden bg-gray-50 dark:bg-[#121212] focus-within:border-[#FFD700] dark:focus-within:border-[#FFD700] dark:focus-within:shadow-[0_0_18px_#C9A22730] transition-all duration-300">
-              <input
-                type="text"
-                value={searchVal}
-                onChange={e => setSearchVal(e.target.value)}
-                placeholder="Buscar productos, marcas y más..."
-                className="w-full bg-transparent pl-5 pr-3 py-2.5 text-sm text-[#0A0A0A] dark:text-zinc-100 placeholder:text-gray-400 focus:outline-none"
-              />
-              <button
-                type="submit"
-                aria-label="Buscar"
-                className="shrink-0 px-5 py-2.5 bg-gradient-to-r from-[#C9A227] to-[#FFD700] dark:from-[#0099FF] dark:to-[#0050A0] text-[#0A0A0A] dark:text-white font-bold text-sm flex items-center gap-2 hover:brightness-110 transition-all"
-              >
-                <Search className="h-4 w-4" />
-                <span className="hidden sm:inline text-xs tracking-widest">BUSCAR</span>
-              </button>
-            </div>
-          </form>
+          {/* ── Smart Search bar ── */}
+          <div ref={searchRef} className="flex-1 max-w-2xl mx-auto relative">
+            <form onSubmit={handleSearch}>
+              <div className={`flex items-center border-2 overflow-visible bg-gray-50 dark:bg-[#121212] transition-all duration-300 ${
+                showDrop
+                  ? 'rounded-t-2xl border-[#FFD700] dark:border-[#FFD700] dark:shadow-[0_0_18px_#C9A22730]'
+                  : 'rounded-full border-[#C9A227] dark:border-[#C9A227]/50 focus-within:border-[#FFD700] dark:focus-within:border-[#FFD700] dark:focus-within:shadow-[0_0_18px_#C9A22730]'
+              }`}>
+                <input
+                  ref={inputRef}
+                  type="text"
+                  value={searchVal}
+                  onChange={e => setSearchVal(e.target.value)}
+                  onKeyDown={handleKeyDown}
+                  onFocus={() => searchVal.trim().length >= 2 && setShowDrop(true)}
+                  placeholder="Buscar productos, marcas y más..."
+                  autoComplete="off"
+                  className="w-full bg-transparent pl-5 pr-3 py-2.5 text-sm text-[#0A0A0A] dark:text-zinc-100 placeholder:text-gray-400 focus:outline-none"
+                />
+                {/* Clear button */}
+                {searchVal && (
+                  <button
+                    type="button"
+                    onClick={() => { setSearchVal(''); setSuggestions([]); setShowDrop(false); inputRef.current?.focus() }}
+                    className="shrink-0 px-2 text-zinc-400 hover:text-[#FFD700] transition-colors"
+                  >
+                    <X className="h-4 w-4" />
+                  </button>
+                )}
+                <button
+                  type="submit"
+                  aria-label="Buscar"
+                  className="shrink-0 px-5 py-2.5 bg-gradient-to-r from-[#C9A227] to-[#FFD700] dark:from-[#0099FF] dark:to-[#0050A0] text-[#0A0A0A] dark:text-white font-bold text-sm flex items-center gap-2 hover:brightness-110 transition-all rounded-r-full"
+                >
+                  <Search className="h-4 w-4" />
+                  <span className="hidden sm:inline text-xs tracking-widest">BUSCAR</span>
+                </button>
+              </div>
+            </form>
 
-          {/* Admin button (visible always, links to login or panel) */}
+            {/* ── Suggestions dropdown ── */}
+            {showDrop && suggestions.length > 0 && (
+              <div
+                ref={dropRef}
+                className="absolute top-full left-0 right-0 z-50 bg-white dark:bg-[#0f0f0f] border-2 border-t-0 border-[#FFD700] rounded-b-2xl shadow-2xl dark:shadow-[0_8px_40px_#00000090] overflow-hidden"
+              >
+                <ul>
+                  {suggestions.map((p, i) => {
+                    const Icon  = ICON_MAP[p.category] || Box
+                    const color = CAT_COLORS[p.category] || '#FFD700'
+                    return (
+                      <li key={p.id}>
+                        <button
+                          type="button"
+                          onMouseDown={() => handleSuggestionClick(p)}
+                          onMouseEnter={() => setActiveIdx(i)}
+                          className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors ${
+                            activeIdx === i
+                              ? 'bg-[#FFD700]/10 dark:bg-[#C9A227]/10'
+                              : 'hover:bg-gray-50 dark:hover:bg-[#1a1a1a]'
+                          }`}
+                        >
+                          {/* Category icon */}
+                          <div
+                            className="shrink-0 w-9 h-9 rounded-lg flex items-center justify-center"
+                            style={{ background: `${color}18` }}
+                          >
+                            <Icon className="h-4 w-4" style={{ color }} />
+                          </div>
+
+                          {/* Product info */}
+                          <div className="flex-1 min-w-0">
+                            <p className="text-sm font-semibold text-[#0A0A0A] dark:text-white truncate">
+                              <Highlight text={p.name} query={searchVal.trim()} />
+                            </p>
+                            <p className="text-xs text-zinc-400 truncate">
+                              <Highlight text={p.brand || ''} query={searchVal.trim()} />
+                              {p.brand && ' · '}
+                              {activeCategories.find(c => c.slug === p.category)?.label || p.category}
+                            </p>
+                          </div>
+
+                          {/* Price + stock */}
+                          <div className="shrink-0 text-right">
+                            <p className="text-sm font-extrabold text-[#C9A227] dark:text-[#FFD700]">
+                              S/. {p.price?.toLocaleString()}
+                            </p>
+                            <p className={`text-[10px] font-bold ${p.stock > 0 ? 'text-emerald-500' : 'text-red-400'}`}>
+                              {p.stock > 0 ? 'En stock' : 'Sin stock'}
+                            </p>
+                          </div>
+                        </button>
+                      </li>
+                    )
+                  })}
+                </ul>
+
+                {/* View all results */}
+                <div className="border-t border-gray-100 dark:border-[#1f1f1f]">
+                  <button
+                    type="button"
+                    onMouseDown={handleViewAll}
+                    className="w-full flex items-center justify-center gap-2 px-4 py-3 text-xs font-extrabold text-[#C9A227] dark:text-[#FFD700] hover:bg-[#FFD700]/8 dark:hover:bg-[#C9A227]/8 transition-colors tracking-wider"
+                  >
+                    <Search className="h-3.5 w-3.5" />
+                    VER TODOS LOS RESULTADOS PARA "{searchVal.trim().toUpperCase()}"
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {/* Empty state in dropdown */}
+            {showDrop && searchVal.trim().length >= 2 && suggestions.length === 0 && (
+              <div className="absolute top-full left-0 right-0 z-50 bg-white dark:bg-[#0f0f0f] border-2 border-t-0 border-[#FFD700] rounded-b-2xl shadow-2xl overflow-hidden">
+                <div className="px-4 py-5 text-center">
+                  <p className="text-sm text-zinc-400">Sin resultados para <span className="font-bold text-[#0A0A0A] dark:text-white">"{searchVal}"</span></p>
+                  <p className="text-xs text-zinc-500 mt-1">Presiona Enter para buscar de todas formas</p>
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Admin button */}
           <Link
             to={isAdmin ? '/admin' : '/admin/login'}
             title={isAdmin ? 'Panel Admin' : 'Acceso Admin'}
@@ -194,7 +426,7 @@ export default function Header() {
             )}
           </div>
 
-          {/* Quick nav links — first 5 active categories */}
+          {/* Quick nav links */}
           <nav className="flex items-stretch">
             {quickLinks.map(link => (
               <Link
@@ -207,7 +439,7 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Admin badge in nav (only when logged in) */}
+          {/* Admin badge */}
           {isAdmin && (
             <Link
               to="/admin"
@@ -238,7 +470,6 @@ export default function Header() {
               )
             })}
           </div>
-          {/* Admin link mobile */}
           <div className="border-t border-[#1f1f1f] p-3">
             <Link
               to={isAdmin ? '/admin' : '/admin/login'}

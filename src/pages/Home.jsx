@@ -1,7 +1,7 @@
 import Header from '../components/Header'
 import Carousel from '../components/Carousel'
 import ProductCard from '../components/ProductCard'
-import { getActiveCategories, getFeaturedByCategory } from '../data/index'
+import { getActiveCategories, getFeaturedByCategory, getAllCategories } from '../data/index'
 import {
   ArrowRight,
   Laptop, Monitor, Keyboard, HardDrive, Camera, Armchair,
@@ -25,23 +25,38 @@ const ICON_MAP = {
   'sillas-gamer': { Icon: Armchair,      color: '#EC4899' },
 }
 
+// Categorías fijas que se muestran en la sección "CATEGORÍAS DESTACADAS"
+const FEATURED_CATEGORY_SLUGS = [
+  'monitores',
+  'almacenamiento',
+  'fuentes',
+  'ram',
+  'placas-madre',
+]
+
 export default function Home() {
   const activeCategories = getActiveCategories()
+  const allCategories    = getAllCategories()
+
+  // Categorías destacadas: solo las 5 fijas, si están activas
+  const featuredCategories = FEATURED_CATEGORY_SLUGS
+    .map(slug => allCategories.find(c => c.slug === slug))
+    .filter(Boolean)
 
   return (
     <div className="min-h-screen bg-white dark:bg-[#0A0A0A]">
       <Header />
       <main>
-        {/* Hero Carousel — usa los banners reales de /assets */}
+        {/* Hero Carousel */}
         <Carousel />
 
-        {/* Active Categories */}
+        {/* ── CATEGORÍAS DESTACADAS (5 fijas) ── */}
         <section className="w-full px-4 py-10 md:px-8">
-          <h2 className="mb-6 text-xl font-extrabold uppercase tracking-wide text-[#0A0A0A] dark:text-white">
-            CATEGORÍAS DISPONIBLES
+          <h2 className="mb-6 text-xl font-extrabold uppercase tracking-wide text-[#0A0A0A] dark:text-white flex items-center gap-2">
+            CATEGORÍAS DESTACADAS 🔥
           </h2>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-            {activeCategories.map(c => {
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+            {featuredCategories.map(c => {
               const { Icon, color } = ICON_MAP[c.slug] || { Icon: Box, color: '#FFD700' }
               return (
                 <Link
