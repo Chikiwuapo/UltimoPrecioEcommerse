@@ -134,8 +134,16 @@ export function getBannersForCategory(slug) {
   const adminBanners = safeJsonParse(KEYS.ADMIN_BANNERS, {})
   const base         = bannersBase[slug] || []
   const admin        = adminBanners[slug] || []
-  // Admin banners go first (most recent customizations on top)
   return [...admin, ...base]
+}
+
+// Special case for Home banners (uses 'home' key in admin_banners)
+export function getHomeBanners() {
+  const adminBanners = safeJsonParse(KEYS.ADMIN_BANNERS, {})
+  const admin        = adminBanners['home'] || []
+  // If admin has provided home banners, we return them. 
+  // We can also return defaults if empty, but usually the Carousel handles defaults.
+  return admin
 }
 
 export function saveAdminBanner(slug, banner) {

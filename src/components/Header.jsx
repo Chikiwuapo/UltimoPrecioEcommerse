@@ -214,7 +214,7 @@ export default function Header() {
           {/* ── Smart Search bar ── */}
           <div ref={searchRef} className="flex-1 max-w-2xl mx-auto relative">
             <form onSubmit={handleSearch}>
-              <div className={`flex items-center border-2 overflow-visible bg-gray-50 dark:bg-[#121212] transition-all duration-300 ${
+              <div className={`flex items-center border-2 overflow-hidden bg-gray-50 dark:bg-[#121212] transition-all duration-300 ${
                 showDrop
                   ? 'rounded-t-2xl border-[#FFD700] dark:border-[#FFD700] dark:shadow-[0_0_18px_#C9A22730]'
                   : 'rounded-full border-[#C9A227] dark:border-[#C9A227]/50 focus-within:border-[#FFD700] dark:focus-within:border-[#FFD700] dark:focus-within:shadow-[0_0_18px_#C9A22730]'
@@ -243,7 +243,7 @@ export default function Header() {
                 <button
                   type="submit"
                   aria-label="Buscar"
-                  className="shrink-0 px-5 py-2.5 bg-gradient-to-r from-[#C9A227] to-[#FFD700] dark:from-[#0099FF] dark:to-[#0050A0] text-[#0A0A0A] dark:text-white font-bold text-sm flex items-center gap-2 hover:brightness-110 transition-all rounded-r-full"
+                  className="shrink-0 self-stretch px-5 bg-gradient-to-r from-[#C9A227] to-[#FFD700] dark:from-[#0099FF] dark:to-[#0050A0] text-[#0A0A0A] dark:text-white font-bold text-sm flex items-center gap-2 hover:brightness-110 transition-all"
                 >
                   <Search className="h-4 w-4" />
                   <span className="hidden sm:inline text-xs tracking-widest">BUSCAR</span>

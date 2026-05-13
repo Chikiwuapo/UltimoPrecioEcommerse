@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { getAllCategories } from '../../data/index'
 import { sanitizeInput } from '../../utils/security'
 import ImageUploader from './ImageUploader'
-import { Save, X } from 'lucide-react'
+import { Save, X, Plus, Trash2 } from 'lucide-react'
 
 const SPEC_FIELDS = {
   laptops:       ['processor','ram','storage','gpu','display'],
@@ -52,8 +52,16 @@ export default function ProductForm({ initial = null, onSave, onCancel }) {
   const [form,    setForm]    = useState(initial || EMPTY)
   const [imgSrc,  setImgSrc]  = useState(initial?.image || '')
   const [errors,  setErrors]  = useState({})
+  
+  // Custom specs state
+  const [newSpecKey, setNewSpecKey] = useState('')
+  const [newSpecVal, setNewSpecVal] = useState('')
+
   const categories = getAllCategories()
-  const specFields = SPEC_FIELDS[form.category] || []
+  const baseSpecFields = SPEC_FIELDS[form.category] || []
+  
+  // Combine base fields with existing custom ones in form.specs
+  const allSpecKeys = [...new Set([...baseSpecFields, ...Object.keys(form.specs || {})])]
 
   useEffect(() => {
     if (initial) {
@@ -68,6 +76,20 @@ export default function ProductForm({ initial = null, onSave, onCancel }) {
 
   function setSpec(key, value) {
     setForm(f => ({ ...f, specs: { ...f.specs, [key]: value } }))
+  }
+
+  function addCustomSpec() {
+    if (!newSpecKey.trim() || !newSpecVal.trim()) return
+    const key = slugify(newSpecKey)
+    setSpec(key, newSpecVal)
+    setNewSpecKey('')
+    setNewSpecVal('')
+  }
+
+  function removeSpec(key) {
+    const newSpecs = { ...form.specs }
+    delete newSpecs[key]
+    setForm(f => ({ ...f, specs: newSpecs }))
   }
 
   function validate() {
@@ -160,25 +182,64 @@ export default function ProductForm({ initial = null, onSave, onCancel }) {
         />
       </div>
 
-      {/* Specs dinámicos */}
-      {specFields.length > 0 && (
-        <div>
-          <p className="text-xs font-bold text-zinc-400 uppercase tracking-widest mb-3">Especificaciones</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {specFields.map(key => (
-              <div key={key}>
-                <label className="block text-xs text-zinc-500 mb-1">{SPEC_LABELS[key] || key}</label>
-                <input
-                  type="text"
-                  value={form.specs?.[key] || ''}
-                  onChange={e => setSpec(key, e.target.value)}
-                  className="w-full bg-[#0A0A0A] border border-[#2a2a2a] focus:border-[#FFD700] rounded-lg px-3 py-2 text-sm text-white focus:outline-none"
-                />
+      {/* Especificaciones */}
+      <div>
+        <p className="text-xs font-bold text-zinc-400 uppercase tracking-widest mb-3 flex items-center justify-between">
+          Especificaciones Técnicas
+          <span className="text-[10px] text-zinc-600 normal-case font-medium">Define los detalles técnicos del producto</span>
+        </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+          {allSpecKeys.map(key => (
+            <div key={key} className="flex flex-col">
+              <div className="flex items-center justify-between mb-1">
+                <label className="text-[10px] font-bold text-zinc-500 uppercase tracking-wider">{SPEC_LABELS[key] || key}</label>
+                {!baseSpecFields.includes(key) && (
+                  <button type="button" onClick={() => removeSpec(key)} className="text-red-500 hover:text-red-400 p-0.5">
+                    <Trash2 className="h-3 w-3" />
+                  </button>
+                )}
               </div>
-            ))}
+              <input
+                type="text"
+                value={form.specs?.[key] || ''}
+                onChange={e => setSpec(key, e.target.value)}
+                className="w-full bg-[#0A0A0A] border border-[#2a2a2a] focus:border-[#FFD700] rounded-lg px-3 py-2 text-sm text-white focus:outline-none"
+              />
+            </div>
+          ))}
+        </div>
+
+        {/* Add custom spec */}
+        <div className="p-3 rounded-xl border border-[#2a2a2a] bg-[#0f0f0f] space-y-3">
+          <p className="text-[10px] font-bold text-zinc-400 uppercase tracking-widest">Añadir especificación personalizada</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <input
+              type="text"
+              value={newSpecKey}
+              onChange={e => setNewSpecKey(e.target.value)}
+              placeholder="Nombre (ej: Generación)"
+              className="bg-[#0A0A0A] border border-[#2a2a2a] rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-[#FFD700]"
+            />
+            <div className="flex gap-2">
+              <input
+                type="text"
+                value={newSpecVal}
+                onChange={e => setNewSpecVal(e.target.value)}
+                placeholder="Valor (ej: 13va Gen)"
+                className="flex-1 bg-[#0A0A0A] border border-[#2a2a2a] rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-[#FFD700]"
+              />
+              <button
+                type="button"
+                onClick={addCustomSpec}
+                className="px-3 py-2 bg-zinc-800 text-white rounded-lg hover:bg-zinc-700 transition-colors"
+              >
+                <Plus className="h-4 w-4" />
+              </button>
+            </div>
           </div>
         </div>
-      )}
+      </div>
 
       {/* Destacado */}
       <label className="flex items-center gap-2 cursor-pointer">

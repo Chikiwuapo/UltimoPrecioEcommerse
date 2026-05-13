@@ -1,12 +1,213 @@
 [
-  { "id": "lap-1",  "slug": "laptop-gaming-asus-tuf-f15-i7-rtx4060", "name": "Laptop Gaming ASUS TUF F15 i7 RTX 4060", "brand": "ASUS", "description": "Intel i7-12700H | 16GB RAM | RTX 4060 8GB | 512GB NVMe SSD | 15.6\" FHD 144Hz", "price": 4299, "oldPrice": 4799, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=ASUS+TUF+F15", "category": "laptops", "featured": true, "stock": 5, "stockLabel": "5", "specs": { "processor": "Intel Core i7-12700H", "ram": "16GB DDR5", "storage": "512GB NVMe SSD", "gpu": "NVIDIA RTX 4060 8GB", "display": "15.6\" FHD 144Hz" } },
-  { "id": "lap-2",  "slug": "laptop-lenovo-legion-5-ryzen7-rtx4070", "name": "Lenovo Legion 5 Ryzen 7 RTX 4070 16GB", "brand": "Lenovo", "description": "AMD Ryzen 7 | 16GB | RTX 4070 | 1TB SSD", "price": 5599, "oldPrice": 6099, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=Lenovo+Legion+5", "category": "laptops", "featured": true, "stock": 5, "stockLabel": "5", "specs": { "processor": "AMD Ryzen 7", "ram": "16GB", "storage": "1TB SSD", "gpu": "NVIDIA RTX 4070" } },
-  { "id": "lap-3",  "slug": "laptop-msi-katana-15-i7-rtx4050", "name": "MSI Katana 15 i7 RTX 4050 16GB", "brand": "MSI", "description": "Intel i7 | 16GB | RTX 4050 | 512GB SSD", "price": 4099, "oldPrice": 4499, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=MSI+Katana+15", "category": "laptops", "featured": false, "stock": 5, "stockLabel": "5", "specs": { "processor": "Intel Core i7", "ram": "16GB", "storage": "512GB SSD", "gpu": "NVIDIA RTX 4050" } },
-  { "id": "lap-4",  "slug": "laptop-hp-victus-16-i5-rtx3050", "name": "HP Victus 16 i5 RTX 3050 16GB", "brand": "HP", "description": "Intel i5 | 16GB | RTX 3050 | 512GB SSD", "price": 3299, "oldPrice": 3599, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=HP+Victus+16", "category": "laptops", "featured": false, "stock": 5, "stockLabel": "5", "specs": { "processor": "Intel Core i5", "ram": "16GB", "storage": "512GB SSD", "gpu": "NVIDIA RTX 3050" } },
-  { "id": "lap-5",  "slug": "laptop-acer-nitro-5-ryzen5-rtx3050", "name": "Acer Nitro 5 Ryzen 5 RTX 3050 8GB", "brand": "Acer", "description": "AMD Ryzen 5 | 8GB | RTX 3050 | 512GB SSD", "price": 2999, "oldPrice": 3299, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=Acer+Nitro+5", "category": "laptops", "featured": false, "stock": 5, "stockLabel": "5", "specs": { "processor": "AMD Ryzen 5", "ram": "8GB", "storage": "512GB SSD", "gpu": "NVIDIA RTX 3050" } },
-  { "id": "lap-6",  "slug": "laptop-dell-g15-i7-rtx3060", "name": "Dell G15 i7 RTX 3060 16GB 1TB", "brand": "Dell", "description": "Intel i7 | 16GB | RTX 3060 | 1TB SSD", "price": 4499, "oldPrice": 4899, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=Dell+G15", "category": "laptops", "featured": false, "stock": 5, "stockLabel": "5", "specs": { "processor": "Intel Core i7", "ram": "16GB", "storage": "1TB SSD", "gpu": "NVIDIA RTX 3060" } },
-  { "id": "lap-7",  "slug": "laptop-asus-rog-strix-g16-i9-rtx4080", "name": "ASUS ROG Strix G16 i9 RTX 4080 32GB", "brand": "ASUS", "description": "Intel i9 | 32GB | RTX 4080 | 1TB SSD", "price": 9299, "oldPrice": 9999, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=ROG+Strix+G16", "category": "laptops", "featured": true, "stock": 3, "stockLabel": "3", "specs": { "processor": "Intel Core i9", "ram": "32GB", "storage": "1TB SSD", "gpu": "NVIDIA RTX 4080" } },
-  { "id": "lap-8",  "slug": "laptop-gigabyte-g5-i5-rtx4060", "name": "Gigabyte G5 i5 RTX 4060 16GB", "brand": "Gigabyte", "description": "Intel i5 | 16GB | RTX 4060 | 512GB SSD", "price": 3899, "oldPrice": 4199, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=Gigabyte+G5", "category": "laptops", "featured": false, "stock": 5, "stockLabel": "5", "specs": { "processor": "Intel Core i5", "ram": "16GB", "storage": "512GB SSD", "gpu": "NVIDIA RTX 4060" } },
-  { "id": "lap-9",  "slug": "laptop-razer-blade-15-i7-rtx4070", "name": "Razer Blade 15 i7 RTX 4070 16GB", "brand": "Razer", "description": "Intel i7 | 16GB | RTX 4070 | 1TB SSD", "price": 8299, "oldPrice": 8799, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=Razer+Blade+15", "category": "laptops", "featured": false, "stock": 5, "stockLabel": "5", "specs": { "processor": "Intel Core i7", "ram": "16GB", "storage": "1TB SSD", "gpu": "NVIDIA RTX 4070" } },
-  { "id": "lap-10", "slug": "laptop-apple-macbook-pro-14-m3", "name": "Apple MacBook Pro 14\" M3 16GB 512GB", "brand": "Apple", "description": "M3 | 16GB | 512GB SSD", "price": 9999, "oldPrice": 10499, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=MacBook+Pro+14", "category": "laptops", "featured": true, "stock": 5, "stockLabel": "5", "specs": { "processor": "Apple M3", "ram": "16GB", "storage": "512GB SSD", "display": "14\" Liquid Retina XDR" } }
+  {
+    "id": "lap-1",
+    "slug": "laptop-gaming-asus-tuf-f15-i7-rtx4060",
+    "name": "Laptop Gaming ASUS TUF F15 i7 RTX 4060",
+    "brand": "ASUS",
+    "description": "Domina el campo de batalla con la ASUS TUF Gaming F15. Equipada con un procesador Intel Core i7 de 12.ª generación y la potente gráfica NVIDIA GeForce RTX 4060, esta laptop está diseñada para ofrecer un rendimiento excepcional en juegos competitivos. Su pantalla de 144Hz garantiza una fluidez total, mientras que su durabilidad de grado militar te permite llevarla a cualquier lugar con total confianza. Refrigeración mejorada y un diseño agresivo que no pasa desapercibido.",
+    "price": 4299,
+    "oldPrice": 4799,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=ASUS+TUF+F15",
+    "category": "laptops",
+    "featured": true,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "processor": "Intel Core i7-12700H",
+      "ram": "16GB DDR5",
+      "storage": "512GB NVMe SSD",
+      "gpu": "NVIDIA RTX 4060 8GB",
+      "display": "15.6\" FHD 144Hz"
+    }
+  },
+  {
+    "id": "lap-2",
+    "slug": "laptop-lenovo-legion-5-ryzen7-rtx4070",
+    "name": "Lenovo Legion 5 Ryzen 7 RTX 4070 16GB",
+    "brand": "Lenovo",
+    "description": "Elegancia y potencia se unen en la Lenovo Legion 5. Con el procesador AMD Ryzen 7 y la arquitectura NVIDIA Ada Lovelace en su RTX 4070, disfrutarás de trazado de rayos y DLSS 3 para una experiencia visual de última generación. El sistema de refrigeración Legion Coldfront 5.0 mantiene las temperaturas bajo control incluso en las sesiones más intensas. Perfecta tanto para creadores de contenido como para gamers exigentes que buscan un equilibrio perfecto.",
+    "price": 5599,
+    "oldPrice": 6099,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=Lenovo+Legion+5",
+    "category": "laptops",
+    "featured": true,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "processor": "AMD Ryzen 7",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "gpu": "NVIDIA RTX 4070"
+    }
+  },
+  {
+    "id": "lap-3",
+    "slug": "laptop-msi-katana-15-i7-rtx4050",
+    "name": "MSI Katana 15 i7 RTX 4050 16GB",
+    "brand": "MSI",
+    "description": "Inspirada en la artesanía de las espadas legendarias, la MSI Katana 15 está forjada para el máximo rendimiento. Su procesador Intel Core i7 y la GPU RTX 4050 te permiten jugar a tus títulos favoritos con configuraciones altas. Incluye un teclado RGB de 4 zonas para personalizar tu estilo y un sistema de sonido de alta fidelidad que te sumerge en la acción. Es la herramienta definitiva para quienes buscan potencia en un formato estilizado.",
+    "price": 4099,
+    "oldPrice": 4499,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=MSI+Katana+15",
+    "category": "laptops",
+    "featured": false,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "gpu": "NVIDIA RTX 4050"
+    }
+  },
+  {
+    "id": "lap-4",
+    "slug": "laptop-hp-victus-16-i5-rtx3050",
+    "name": "HP Victus 16 i5 RTX 3050 16GB",
+    "brand": "HP",
+    "description": "La HP Victus 16 es la puerta de entrada ideal al mundo del gaming. Con una pantalla de 16 pulgadas y un potente procesador Intel Core i5, ofrece una experiencia inmersiva sin compromisos. La gráfica RTX 3050 proporciona el rendimiento necesario para juegos modernos y tareas de diseño. Su diseño sofisticado la hace apta tanto para el estudio como para el ocio, con un sistema térmico avanzado que evita el sobrecalentamiento.",
+    "price": 3299,
+    "oldPrice": 3599,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=HP+Victus+16",
+    "category": "laptops",
+    "featured": false,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "processor": "Intel Core i5",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "gpu": "NVIDIA RTX 3050"
+    }
+  },
+  {
+    "id": "lap-5",
+    "slug": "laptop-acer-nitro-5-ryzen5-rtx3050",
+    "name": "Acer Nitro 5 Ryzen 5 RTX 3050 8GB",
+    "brand": "Acer",
+    "description": "Acelera a fondo con la Acer Nitro 5. Equipada con un procesador AMD Ryzen 5 y gráficos NVIDIA RTX 3050, esta laptop ofrece una excelente relación calidad-precio. Su pantalla IPS con biseles delgados maximiza tu visión, mientras que la tecnología Acer CoolBoost permite controlar manualmente el proceso de enfriamiento. Ideal para estudiantes y jugadores casuales que buscan un equipo confiable y duradero para el día a día.",
+    "price": 2999,
+    "oldPrice": 3299,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=Acer+Nitro+5",
+    "category": "laptops",
+    "featured": false,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "processor": "AMD Ryzen 5",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "gpu": "NVIDIA RTX 3050"
+    }
+  },
+  {
+    "id": "lap-6",
+    "slug": "laptop-dell-g15-i7-rtx3060",
+    "name": "Dell G15 i7 RTX 3060 16GB 1TB",
+    "brand": "Dell",
+    "description": "Experimenta un rendimiento de alto nivel con la Dell G15. Su robusto chasis alberga un procesador Intel Core i7 y una potente RTX 3060, optimizados para ofrecer frames estables en juegos exigentes. Con un almacenamiento masivo de 1TB SSD, nunca te quedarás sin espacio para tu biblioteca de juegos. El diseño térmico inspirado en Alienware garantiza que el aire circule eficientemente, manteniendo el equipo fresco bajo presión.",
+    "price": 4499,
+    "oldPrice": 4899,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=Dell+G15",
+    "category": "laptops",
+    "featured": false,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "gpu": "NVIDIA RTX 3060"
+    }
+  },
+  {
+    "id": "lap-7",
+    "slug": "laptop-asus-rog-strix-g16-i9-rtx4080",
+    "name": "ASUS ROG Strix G16 i9 RTX 4080 32GB",
+    "brand": "ASUS",
+    "description": "Lleva tu juego al límite con la ASUS ROG Strix G16. Esta bestia del rendimiento cuenta con el procesador Intel Core i9 más potente y una NVIDIA RTX 4080 de gama alta. Con 32GB de RAM, la multitarea y el streaming son pan comido. Su pantalla ROG Nebula ofrece colores vibrantes y negros profundos para una inmersión total. Incluye iluminación Aura Sync RGB y el sistema de refrigeración inteligente de ROG para un desempeño imbatible.",
+    "price": 9299,
+    "oldPrice": 9999,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=ROG+Strix+G16",
+    "category": "laptops",
+    "featured": true,
+    "stock": 3,
+    "stockLabel": "3",
+    "specs": {
+      "processor": "Intel Core i9",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "gpu": "NVIDIA RTX 4080"
+    }
+  },
+  {
+    "id": "lap-8",
+    "slug": "laptop-gigabyte-g5-i5-rtx4060",
+    "name": "Gigabyte G5 i5 RTX 4060 16GB",
+    "brand": "Gigabyte",
+    "description": "La Gigabyte G5 combina un diseño ligero con un rendimiento pesado. Equipada con un Intel Core i5 y la nueva RTX 4060, es perfecta para jugar y trabajar en movimiento. Su pantalla de alta frecuencia de actualización elimina el desenfoque de movimiento en juegos rápidos. Con múltiples puertos de conexión y un sistema de sonido envolvente, es una solución versátil para cualquier usuario que busque potencia y portabilidad.",
+    "price": 3899,
+    "oldPrice": 4199,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=Gigabyte+G5",
+    "category": "laptops",
+    "featured": false,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "processor": "Intel Core i5",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "gpu": "NVIDIA RTX 4060"
+    }
+  },
+  {
+    "id": "lap-9",
+    "slug": "laptop-razer-blade-15-i7-rtx4070",
+    "name": "Razer Blade 15 i7 RTX 4070 16GB",
+    "brand": "Razer",
+    "description": "El epítome de la sofisticación gaming. La Razer Blade 15 está construida con un chasis de aluminio CNC ultrafino que alberga un Intel Core i7 y una RTX 4070. Su pantalla QHD ofrece una precisión de color increíble, ideal para profesionales creativos y gamers de alto nivel. Con tecnología Razer Chroma RGB y un trackpad de cristal, cada detalle ha sido diseñado para ofrecer la experiencia más premium del mercado.",
+    "price": 8299,
+    "oldPrice": 8799,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=Razer+Blade+15",
+    "category": "laptops",
+    "featured": false,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "gpu": "NVIDIA RTX 4070"
+    }
+  },
+  {
+    "id": "lap-10",
+    "slug": "laptop-apple-macbook-pro-14-m3",
+    "name": "Apple MacBook Pro 14\" M3 16GB 512GB",
+    "brand": "Apple",
+    "description": "La MacBook Pro de 14 pulgadas con chip M3 redefine lo posible. Ofrece un rendimiento revolucionario y una duración de batería asombrosa de hasta 22 horas. Su pantalla Liquid Retina XDR es la mejor vista en una laptop profesional, con un brillo extremo y contraste infinito. Ideal para flujos de trabajo exigentes como edición de video 4K, renderizado 3D y desarrollo de software, todo en un diseño icónico y silencioso.",
+    "price": 9999,
+    "oldPrice": 10499,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=MacBook+Pro+14",
+    "category": "laptops",
+    "featured": true,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "processor": "Apple M3",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "14\" Liquid Retina XDR"
+    }
+  }
 ]

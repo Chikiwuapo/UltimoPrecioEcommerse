@@ -1,7 +1,7 @@
 import Header from '../components/Header'
 import Carousel from '../components/Carousel'
 import ProductCard from '../components/ProductCard'
-import { getActiveCategories, getFeaturedByCategory, getAllCategories } from '../data/index'
+import { getActiveCategories, getFeaturedByCategory, getAllCategories, getHomeBanners } from '../data/index'
 import {
   ArrowRight,
   Laptop, Monitor, Keyboard, HardDrive, Camera, Armchair,
@@ -43,12 +43,14 @@ export default function Home() {
     .map(slug => allCategories.find(c => c.slug === slug))
     .filter(Boolean)
 
+  const homeBanners = getHomeBanners()
+
   return (
     <div className="min-h-screen bg-white dark:bg-[#0A0A0A]">
       <Header />
       <main>
         {/* Hero Carousel */}
-        <Carousel />
+        <Carousel slides={homeBanners} />
 
         {/* ── CATEGORÍAS DESTACADAS (5 fijas) ── */}
         <section className="w-full px-4 py-10 md:px-8">

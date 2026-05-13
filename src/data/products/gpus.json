@@ -1,9 +1,148 @@
 [
-  { "id": "gpu-real-1", "slug": "tarjeta-grafica-rog-gaming-gt610-2gb-ddr3", "name": "Tarjeta Gráfica ROG Gaming GT610 2GB DDR3", "brand": "ASUS ROG", "description": "TARJETA GRÁFICA ROG GAMING GT610 2GB DDR3 (NO TIENE BAJO PERFIL)", "price": 145, "oldPrice": null, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=ROG+GT610+2GB", "category": "gpus", "featured": false, "stock": 20, "stockLabel": "20", "specs": { "gpu": "NVIDIA GeForce GT 610", "vram": "2GB DDR3", "busWidth": "64 bits", "connectors": "VGA, DVI, HDMI" } },
-  { "id": "gpu-real-2", "slug": "tarjeta-grafica-peland-gt730-4gb-ddr3", "name": "Tarjeta Gráfica Peland GT730 4GB DDR3 Bajo Perfil", "brand": "Peland", "description": "Tarjeta gráfica PELAND GT730 NVIDIA GeForce GT 730, 4 GB DDR3, 128 bits, 700 MHz, DVI, HDMI, VGA, PCI Express 2.0, Bajo perfil compatible", "price": 265, "oldPrice": null, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=Peland+GT730+4GB", "category": "gpus", "featured": false, "stock": 10, "stockLabel": ">10", "specs": { "gpu": "NVIDIA GeForce GT 730", "vram": "4GB DDR3", "busWidth": "128 bits", "coreClock": "700 MHz", "connectors": "DVI, HDMI, VGA", "extras": "Bajo perfil compatible" } },
-  { "id": "gpu-real-3", "slug": "tarjeta-grafica-peland-rx-5500-xt-8gb-gddr6", "name": "Tarjeta Gráfica Peland RX 5500 XT 8GB GDDR6", "brand": "Peland", "description": "RX 5500 XT 8GD6 Gaming Graphics Card. MEMORIA 8GB, 128BIT, GDDR6, 8 PINES, 550W DE FUENTE RECOMENDADA", "price": 699, "oldPrice": null, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=Peland+RX+5500+XT+8GB", "category": "gpus", "featured": true, "stock": 3, "stockLabel": "3", "specs": { "gpu": "AMD Radeon RX 5500 XT", "vram": "8GB GDDR6", "busWidth": "128 bits", "powerConnectors": "8 pines", "recommendedPSU": "550W" } },
-  { "id": "gpu-1",  "slug": "nvidia-geforce-rtx-4070-ti-super-12gb", "name": "NVIDIA GeForce RTX 4070 Ti SUPER 12GB GDDR6X", "brand": "NVIDIA", "description": "12GB GDDR6X | DLSS 3 | Ray Tracing 3rd Gen", "price": 3999, "oldPrice": 4299, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=RTX+4070+Ti+SUPER", "category": "gpus", "featured": true, "stock": 5, "stockLabel": "5", "specs": { "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER", "vram": "12GB GDDR6X", "extras": "DLSS 3, Ray Tracing Gen 3" } },
-  { "id": "gpu-2",  "slug": "nvidia-geforce-rtx-4060-8gb", "name": "NVIDIA GeForce RTX 4060 8GB GDDR6", "brand": "NVIDIA", "description": "8GB GDDR6 | DLSS 3 | Ray Tracing", "price": 1599, "oldPrice": 1899, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=RTX+4060+8GB", "category": "gpus", "featured": true, "stock": 10, "stockLabel": ">10", "specs": { "gpu": "NVIDIA GeForce RTX 4060", "vram": "8GB GDDR6", "extras": "DLSS 3, Ray Tracing" } },
-  { "id": "gpu-3",  "slug": "amd-radeon-rx-7800-xt-16gb", "name": "AMD Radeon RX 7800 XT 16GB GDDR6", "brand": "AMD", "description": "16GB GDDR6 | FSR 3 | Ray Tracing", "price": 2699, "oldPrice": 2999, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=RX+7800+XT", "category": "gpus", "featured": false, "stock": 5, "stockLabel": "5", "specs": { "gpu": "AMD Radeon RX 7800 XT", "vram": "16GB GDDR6", "extras": "FSR 3, Ray Tracing" } },
-  { "id": "gpu-4",  "slug": "nvidia-geforce-rtx-4080-16gb", "name": "NVIDIA GeForce RTX 4080 16GB GDDR6X", "brand": "NVIDIA", "description": "16GB GDDR6X | DLSS 3.5 | Ray Tracing", "price": 6499, "oldPrice": 6899, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=RTX+4080", "category": "gpus", "featured": false, "stock": 3, "stockLabel": "3", "specs": { "gpu": "NVIDIA GeForce RTX 4080", "vram": "16GB GDDR6X", "extras": "DLSS 3.5, Ray Tracing" } }
+  {
+    "id": "gpu-real-1",
+    "slug": "tarjeta-grafica-rog-gaming-gt610-2gb-ddr3",
+    "name": "Tarjeta Gráfica ROG Gaming GT610 2GB DDR3",
+    "brand": "ASUS ROG",
+    "description": "La ASUS ROG Gaming GT610 es una solución eficiente para mejorar el rendimiento gráfico básico de tu computadora. Ideal para tareas de oficina, reproducción de contenido multimedia y juegos ligeros. Su diseño silencioso y componentes de alta calidad garantizan una larga vida útil. Ten en cuenta que este modelo no es de bajo perfil, por lo que requiere un chasis estándar para su correcta instalación.",
+    "price": 145,
+    "oldPrice": null,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=ROG+GT610+2GB",
+    "category": "gpus",
+    "featured": false,
+    "stock": 20,
+    "stockLabel": "20",
+    "specs": {
+      "gpu": "NVIDIA GeForce GT 610",
+      "vram": "2GB DDR3",
+      "busWidth": "64 bits",
+      "connectors": "VGA, DVI, HDMI"
+    }
+  },
+  {
+    "id": "gpu-real-2",
+    "slug": "tarjeta-grafica-peland-gt730-4gb-ddr3",
+    "name": "Tarjeta Gráfica Peland GT730 4GB DDR3 Bajo Perfil",
+    "brand": "Peland",
+    "description": "Optimiza tu espacio sin sacrificar capacidad con la Peland GT730 de 4GB. Esta tarjeta de bajo perfil es perfecta para gabinetes compactos (SFF) y ofrece una mejora significativa sobre los gráficos integrados. Con 4GB de memoria DDR3 y un bus de 128 bits, es capaz de manejar múltiples monitores y flujos de trabajo diarios con fluidez. Incluye salidas HDMI y DVI para una compatibilidad total con pantallas modernas.",
+    "price": 265,
+    "oldPrice": null,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=Peland+GT730+4GB",
+    "category": "gpus",
+    "featured": false,
+    "stock": 10,
+    "stockLabel": ">10",
+    "specs": {
+      "gpu": "NVIDIA GeForce GT 730",
+      "vram": "4GB DDR3",
+      "busWidth": "128 bits",
+      "coreClock": "700 MHz",
+      "connectors": "DVI, HDMI, VGA",
+      "extras": "Bajo perfil compatible"
+    }
+  },
+  {
+    "id": "gpu-real-3",
+    "slug": "tarjeta-grafica-peland-rx-5500-xt-8gb-gddr6",
+    "name": "Tarjeta Gráfica Peland RX 5500 XT 8GB GDDR6",
+    "brand": "Peland",
+    "description": "Eleva tu experiencia de juego a 1080p con la Peland RX 5500 XT. Con 8GB de memoria GDDR6 ultrarrápida, esta tarjeta está lista para los títulos más populares de la actualidad. Su arquitectura eficiente permite un rendimiento sólido con un consumo de energía moderado. Ideal para gamers que buscan una actualización potente y asequible, con soporte completo para las últimas tecnologías de imagen de AMD.",
+    "price": 699,
+    "oldPrice": null,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=Peland+RX+5500+XT+8GB",
+    "category": "gpus",
+    "featured": true,
+    "stock": 3,
+    "stockLabel": "3",
+    "specs": {
+      "gpu": "AMD Radeon RX 5500 XT",
+      "vram": "8GB GDDR6",
+      "busWidth": "128 bits",
+      "powerConnectors": "8 pines",
+      "recommendedPSU": "550W"
+    }
+  },
+  {
+    "id": "gpu-1",
+    "slug": "nvidia-geforce-rtx-4070-ti-super-12gb",
+    "name": "NVIDIA GeForce RTX 4070 Ti SUPER 12GB GDDR6X",
+    "brand": "NVIDIA",
+    "description": "La NVIDIA GeForce RTX 4070 Ti SUPER es la elección definitiva para el gaming a 1440p de alto rendimiento. Gracias a la tecnología DLSS 3 y a sus núcleos Ray Tracing de 3.ª generación, podrás disfrutar de mundos virtuales con un realismo asombroso y tasas de cuadros por segundo excepcionales. Sus 12GB de memoria GDDR6X garantizan que nunca te quedes corto en las texturas más pesadas de los juegos modernos.",
+    "price": 3999,
+    "oldPrice": 4299,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=RTX+4070+Ti+SUPER",
+    "category": "gpus",
+    "featured": true,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+      "vram": "12GB GDDR6X",
+      "extras": "DLSS 3, Ray Tracing Gen 3"
+    }
+  },
+  {
+    "id": "gpu-2",
+    "slug": "nvidia-geforce-rtx-4060-8gb",
+    "name": "NVIDIA GeForce RTX 4060 8GB GDDR6",
+    "brand": "NVIDIA",
+    "description": "Entra en la nueva era del gaming con la RTX 4060. Diseñada para ofrecer una eficiencia increíble, esta tarjeta te permite jugar a 1080p con configuraciones ultra y trazado de rayos activo. La compatibilidad con NVIDIA DLSS 3 multiplica el rendimiento mediante IA, permitiéndote disfrutar de una fluidez sin precedentes en una amplia gama de títulos. Es la actualización perfecta para cualquier PC gamer moderno que busque valor y tecnología punta.",
+    "price": 1599,
+    "oldPrice": 1899,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=RTX+4060+8GB",
+    "category": "gpus",
+    "featured": true,
+    "stock": 10,
+    "stockLabel": ">10",
+    "specs": {
+      "gpu": "NVIDIA GeForce RTX 4060",
+      "vram": "8GB GDDR6",
+      "extras": "DLSS 3, Ray Tracing"
+    }
+  },
+  {
+    "id": "gpu-3",
+    "slug": "amd-radeon-rx-7800-xt-16gb",
+    "name": "AMD Radeon RX 7800 XT 16GB GDDR6",
+    "brand": "AMD",
+    "description": "Libera el potencial de tu PC con la AMD Radeon RX 7800 XT. Con unos impresionantes 16GB de memoria GDDR6, esta tarjeta está preparada para dominar resoluciones de 1440p y más allá. La tecnología AMD FSR 3 optimiza cada cuadro para una experiencia de juego ultra fluida. Su arquitectura RDNA 3 ofrece un rendimiento por vatio líder en la industria, siendo una opción sólida para quienes prefieren el ecosistema de alto desempeño de AMD.",
+    "price": 2699,
+    "oldPrice": 2999,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=RX+7800+XT",
+    "category": "gpus",
+    "featured": false,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "gpu": "AMD Radeon RX 7800 XT",
+      "vram": "16GB GDDR6",
+      "extras": "FSR 3, Ray Tracing"
+    }
+  },
+  {
+    "id": "gpu-4",
+    "slug": "nvidia-geforce-rtx-4080-16gb",
+    "name": "NVIDIA GeForce RTX 4080 16GB GDDR6X",
+    "brand": "NVIDIA",
+    "description": "La NVIDIA GeForce RTX 4080 ofrece el rendimiento masivo que demandan los jugadores y creadores más exigentes. Con una potencia gráfica descomunal y 16GB de memoria GDDR6X de alta velocidad, está diseñada para el gaming en 4K y flujos de trabajo de renderizado intensivo. La tecnología DLSS 3.5 con reconstrucción de rayos lleva el realismo visual a niveles nunca antes vistos, convirtiendo cada juego en una obra maestra cinematográfica.",
+    "price": 6499,
+    "oldPrice": 6899,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=RTX+4080",
+    "category": "gpus",
+    "featured": false,
+    "stock": 3,
+    "stockLabel": "3",
+    "specs": {
+      "gpu": "NVIDIA GeForce RTX 4080",
+      "vram": "16GB GDDR6X",
+      "extras": "DLSS 3.5, Ray Tracing"
+    }
+  }
 ]
