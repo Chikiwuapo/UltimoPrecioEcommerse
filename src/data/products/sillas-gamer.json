@@ -1,8 +1,135 @@
 [
-  { "id": "silla-1", "slug": "silla-gamer-abaddonx-rojo-pvc-reclinable-160", "name": "Silla Gamer AbaddonX Rojo PVC Reclinable 160°", "brand": "AbaddonX", "description": "Tapizado en cuero sintético (PVC) de alta resistencia, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG, incluye 2 almohadillas (cuello y espalda), tamaño 80×28×58.5cm", "price": 249, "oldPrice": null, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=AbaddonX+Rojo+PVC", "category": "sillas-gamer", "featured": true, "stock": 5, "stockLabel": "5", "specs": { "material": "Cuero sintético PVC", "reclining": "160°", "weightCapacity": "150 kg", "dimensions": "80×28×58.5 cm", "extras": "Reposapiés, Reposabrazos, 2 almohadillas (cuello y espalda)", "color": "Rojo/Negro" } },
-  { "id": "silla-2", "slug": "silla-gamer-abaddonx-negro-gris-pvc", "name": "Silla Gamer AbaddonX Negro/Gris PVC Reclinable 160°", "brand": "AbaddonX", "description": "Tapizado en cuero sintético (PVC) de alta resistencia, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG, incluye 2 almohadillas", "price": 249, "oldPrice": null, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=AbaddonX+Negro+Gris+PVC", "category": "sillas-gamer", "featured": false, "stock": 5, "stockLabel": "5", "specs": { "material": "Cuero sintético PVC", "reclining": "160°", "weightCapacity": "150 kg", "dimensions": "80×28×58.5 cm", "extras": "Reposapiés, Reposabrazos, 2 almohadillas", "color": "Negro/Gris" } },
-  { "id": "silla-3", "slug": "silla-gamer-abaddonx-negro-entero-pvc", "name": "Silla Gamer AbaddonX Negro Entero PVC Reclinable 160°", "brand": "AbaddonX", "description": "Tapizado en cuero sintético (PVC) de alta resistencia, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG", "price": 269, "oldPrice": null, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=AbaddonX+Negro+PVC", "category": "sillas-gamer", "featured": false, "stock": 5, "stockLabel": "5", "specs": { "material": "Cuero sintético PVC", "reclining": "160°", "weightCapacity": "150 kg", "dimensions": "80×28×58.5 cm", "color": "Negro Entero" } },
-  { "id": "silla-4", "slug": "silla-gamer-abaddonx-negro-rojo-tela", "name": "Silla Gamer AbaddonX Negro/Rojo Tela Reclinable 160°", "brand": "AbaddonX", "description": "Tapizado en Tela Resistente y transpirable, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG, 2 almohadillas", "price": 289, "oldPrice": null, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=AbaddonX+Tela+Rojo", "category": "sillas-gamer", "featured": true, "stock": 5, "stockLabel": "5", "specs": { "material": "Tela resistente transpirable", "reclining": "160°", "weightCapacity": "150 kg", "dimensions": "80×28×58.5 cm", "extras": "Reposapiés, 2 almohadillas", "color": "Negro/Rojo" } },
-  { "id": "silla-5", "slug": "silla-gamer-abaddonx-negro-gris-tela", "name": "Silla Gamer AbaddonX Negro/Gris Tela Reclinable 160°", "brand": "AbaddonX", "description": "Tapizado en Tela Resistente y transpirable, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG", "price": 289, "oldPrice": null, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=AbaddonX+Tela+Gris", "category": "sillas-gamer", "featured": false, "stock": 5, "stockLabel": "5", "specs": { "material": "Tela resistente transpirable", "reclining": "160°", "weightCapacity": "150 kg", "color": "Negro/Gris" } },
-  { "id": "silla-6", "slug": "silla-gamer-abaddonx-negro-entero-tela", "name": "Silla Gamer AbaddonX Negro Entero Tela Reclinable 160°", "brand": "AbaddonX", "description": "Tapizado en Tela Resistente y transpirable, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG", "price": 289, "oldPrice": null, "currency": "PEN", "image": "https://via.placeholder.com/600x400?text=AbaddonX+Tela+Negro", "category": "sillas-gamer", "featured": false, "stock": 5, "stockLabel": "5", "specs": { "material": "Tela resistente transpirable", "reclining": "160°", "weightCapacity": "150 kg", "color": "Negro Entero" } }
+  {
+    "id": "silla-1",
+    "slug": "silla-gamer-abaddonx-rojo-pvc-reclinable-160",
+    "name": "Silla Gamer AbaddonX Rojo PVC Reclinable 160°",
+    "brand": "AbaddonX",
+    "description": "Tapizado en cuero sintético (PVC) de alta resistencia, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG, incluye 2 almohadillas (cuello y espalda), tamaño 80×28×58.5cm",
+    "price": 249,
+    "oldPrice": null,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=AbaddonX+Rojo+PVC",
+    "category": "sillas-gamer",
+    "featured": true,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "material": "Cuero sintético PVC",
+      "reclining": "160°",
+      "weightCapacity": "150 kg",
+      "dimensions": "80×28×58.5 cm",
+      "extras": "Reposapiés, Reposabrazos, 2 almohadillas (cuello y espalda)",
+      "color": "Rojo/Negro"
+    }
+  },
+  {
+    "id": "silla-2",
+    "slug": "silla-gamer-abaddonx-negro-gris-pvc",
+    "name": "Silla Gamer AbaddonX Negro/Gris PVC Reclinable 160°",
+    "brand": "AbaddonX",
+    "description": "Tapizado en cuero sintético (PVC) de alta resistencia, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG, incluye 2 almohadillas",
+    "price": 249,
+    "oldPrice": null,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=AbaddonX+Negro+Gris+PVC",
+    "category": "sillas-gamer",
+    "featured": false,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "material": "Cuero sintético PVC",
+      "reclining": "160°",
+      "weightCapacity": "150 kg",
+      "dimensions": "80×28×58.5 cm",
+      "extras": "Reposapiés, Reposabrazos, 2 almohadillas",
+      "color": "Negro/Gris"
+    }
+  },
+  {
+    "id": "silla-3",
+    "slug": "silla-gamer-abaddonx-negro-entero-pvc",
+    "name": "Silla Gamer AbaddonX Negro Entero PVC Reclinable 160°",
+    "brand": "AbaddonX",
+    "description": "Tapizado en cuero sintético (PVC) de alta resistencia, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG",
+    "price": 269,
+    "oldPrice": null,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=AbaddonX+Negro+PVC",
+    "category": "sillas-gamer",
+    "featured": false,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "material": "Cuero sintético PVC",
+      "reclining": "160°",
+      "weightCapacity": "150 kg",
+      "dimensions": "80×28×58.5 cm",
+      "color": "Negro Entero"
+    }
+  },
+  {
+    "id": "silla-4",
+    "slug": "silla-gamer-abaddonx-negro-rojo-tela",
+    "name": "Silla Gamer AbaddonX Negro/Rojo Tela Reclinable 160°",
+    "brand": "AbaddonX",
+    "description": "Tapizado en Tela Resistente y transpirable, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG, 2 almohadillas",
+    "price": 289,
+    "oldPrice": null,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=AbaddonX+Tela+Rojo",
+    "category": "sillas-gamer",
+    "featured": true,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "material": "Tela resistente transpirable",
+      "reclining": "160°",
+      "weightCapacity": "150 kg",
+      "dimensions": "80×28×58.5 cm",
+      "extras": "Reposapiés, 2 almohadillas",
+      "color": "Negro/Rojo"
+    }
+  },
+  {
+    "id": "silla-5",
+    "slug": "silla-gamer-abaddonx-negro-gris-tela",
+    "name": "Silla Gamer AbaddonX Negro/Gris Tela Reclinable 160°",
+    "brand": "AbaddonX",
+    "description": "Tapizado en Tela Resistente y transpirable, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG",
+    "price": 289,
+    "oldPrice": null,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=AbaddonX+Tela+Gris",
+    "category": "sillas-gamer",
+    "featured": false,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "material": "Tela resistente transpirable",
+      "reclining": "160°",
+      "weightCapacity": "150 kg",
+      "color": "Negro/Gris"
+    }
+  },
+  {
+    "id": "silla-6",
+    "slug": "silla-gamer-abaddonx-negro-entero-tela",
+    "name": "Silla Gamer AbaddonX Negro Entero Tela Reclinable 160°",
+    "brand": "AbaddonX",
+    "description": "Tapizado en Tela Resistente y transpirable, reclinable 160°, ajuste de altura, reposapiés, reposabrazos, soporta hasta 150 KG",
+    "price": 289,
+    "oldPrice": null,
+    "currency": "PEN",
+    "image": "https://via.placeholder.com/600x400?text=AbaddonX+Tela+Negro",
+    "category": "sillas-gamer",
+    "featured": false,
+    "stock": 5,
+    "stockLabel": "5",
+    "specs": {
+      "material": "Tela resistente transpirable",
+      "reclining": "160°",
+      "weightCapacity": "150 kg",
+      "color": "Negro Entero"
+    }
+  }
 ]

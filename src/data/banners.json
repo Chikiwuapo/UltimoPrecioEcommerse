@@ -1,442 +1,442 @@
 ﻿{
-    "placas-madre":  [
-                         {
-                             "cta":  "VER PLACAS-MADRE ASROCK",
-                             "ctaLink":  "/categoria/placas-madre",
-                             "id":  "ban-placas-madre-asrock",
-                             "image":  "/banners/PLACA MADRE/asrock.jpg"
-                         },
-                         {
-                             "cta":  "VER PLACAS-MADRE ASUS",
-                             "ctaLink":  "/categoria/placas-madre",
-                             "id":  "ban-placas-madre-asus",
-                             "image":  "/banners/PLACA MADRE/asus.jpg"
-                         },
-                         {
-                             "cta":  "VER PLACAS-MADRE ESONIC",
-                             "ctaLink":  "/categoria/placas-madre",
-                             "id":  "ban-placas-madre-esonic",
-                             "image":  "/banners/PLACA MADRE/esonic.jpg"
-                         },
-                         {
-                             "cta":  "VER PLACAS-MADRE GIGABYTE",
-                             "ctaLink":  "/categoria/placas-madre",
-                             "id":  "ban-placas-madre-gigabyte",
-                             "image":  "/banners/PLACA MADRE/gigabyte.jpg"
-                         },
-                         {
-                             "cta":  "VER PLACAS-MADRE MSI",
-                             "ctaLink":  "/categoria/placas-madre",
-                             "id":  "ban-placas-madre-msi",
-                             "image":  "/banners/PLACA MADRE/msi.jpg"
-                         },
-                         {
-                             "cta":  "VER PLACAS-MADRE ROG",
-                             "ctaLink":  "/categoria/placas-madre",
-                             "id":  "ban-placas-madre-rog",
-                             "image":  "/banners/PLACA MADRE/rog.jpg"
-                         },
-                         {
-                             "cta":  "VER PLACAS-MADRE WINFOX",
-                             "ctaLink":  "/categoria/placas-madre",
-                             "id":  "ban-placas-madre-winfox",
-                             "image":  "/banners/PLACA MADRE/winfox.jpg"
-                         },
-                         {
-                             "cta":  "VER PLACAS-MADRE X BIOS",
-                             "ctaLink":  "/categoria/placas-madre",
-                             "id":  "ban-placas-madre-x-bios",
-                             "image":  "/banners/PLACA MADRE/x bios.jpg"
-                         }
-                     ],
-    "procesadores":  [
-                         {
-                             "cta":  "VER PROCESADORES AMD",
-                             "ctaLink":  "/categoria/procesadores",
-                             "id":  "ban-procesadores-amd",
-                             "image":  "/banners/PROCESADORES/AMD.jpg"
-                         },
-                         {
-                             "cta":  "VER PROCESADORES INTEL",
-                             "ctaLink":  "/categoria/procesadores",
-                             "id":  "ban-procesadores-intel",
-                             "image":  "/banners/PROCESADORES/INTEL.jpg"
-                         }
-                     ],
-    "fuentes":  [
-                    {
-                        "cta":  "VER FUENTES ANTRIX",
-                        "ctaLink":  "/categoria/fuentes",
-                        "id":  "ban-fuentes-antrix",
-                        "image":  "/banners/FUENTE DE PODER/antrix.jpg"
-                    },
-                    {
-                        "cta":  "VER FUENTES EVGA",
-                        "ctaLink":  "/categoria/fuentes",
-                        "id":  "ban-fuentes-evga",
-                        "image":  "/banners/FUENTE DE PODER/EVGA.jpg"
-                    },
-                    {
-                        "cta":  "VER FUENTES GIGABYTE",
-                        "ctaLink":  "/categoria/fuentes",
-                        "id":  "ban-fuentes-gigabyte",
-                        "image":  "/banners/FUENTE DE PODER/gigabyte.jpg"
-                    },
-                    {
-                        "cta":  "VER FUENTES MICRONICS",
-                        "ctaLink":  "/categoria/fuentes",
-                        "id":  "ban-fuentes-micronics",
-                        "image":  "/banners/FUENTE DE PODER/micronics.jpg"
-                    },
-                    {
-                        "cta":  "VER FUENTES MSI",
-                        "ctaLink":  "/categoria/fuentes",
-                        "id":  "ban-fuentes-msi",
-                        "image":  "/banners/FUENTE DE PODER/msi.jpg"
-                    },
-                    {
-                        "cta":  "VER FUENTES ROG",
-                        "ctaLink":  "/categoria/fuentes",
-                        "id":  "ban-fuentes-rog",
-                        "image":  "/banners/FUENTE DE PODER/rog.jpg"
-                    },
-                    {
-                        "cta":  "VER FUENTES TEROS",
-                        "ctaLink":  "/categoria/fuentes",
-                        "id":  "ban-fuentes-teros",
-                        "image":  "/banners/FUENTE DE PODER/teros.jpg"
-                    },
-                    {
-                        "cta":  "VER FUENTES XPG",
-                        "ctaLink":  "/categoria/fuentes",
-                        "id":  "ban-fuentes-xpg",
-                        "image":  "/banners/FUENTE DE PODER/XPG.jpg"
-                    }
-                ],
-    "camaras":  [
-                    {
-                        "cta":  "VER CAMARAS MICRONICS",
-                        "ctaLink":  "/categoria/camaras",
-                        "id":  "ban-camaras-micronics",
-                        "image":  "/banners/WEB-CAM/MICRONICS.jpg"
-                    },
-                    {
-                        "cta":  "VER CAMARAS TEROS",
-                        "ctaLink":  "/categoria/camaras",
-                        "id":  "ban-camaras-teros",
-                        "image":  "/banners/WEB-CAM/TEROS.jpg"
-                    }
-                ],
-    "gpus":  [
-                 {
-                     "cta":  "VER GPUS AMD",
-                     "ctaLink":  "/categoria/gpus",
-                     "id":  "ban-gpus-amd",
-                     "image":  "/banners/GRAFICAS/AMD.jpg"
-                 },
-                 {
-                     "cta":  "VER GPUS ASUS",
-                     "ctaLink":  "/categoria/gpus",
-                     "id":  "ban-gpus-asus",
-                     "image":  "/banners/GRAFICAS/ASUS.jpg"
-                 },
-                 {
-                     "cta":  "VER GPUS NVIDIA",
-                     "ctaLink":  "/categoria/gpus",
-                     "id":  "ban-gpus-nvidia",
-                     "image":  "/banners/GRAFICAS/NVIDIA.jpg"
-                 },
-                 {
-                     "cta":  "VER GPUS PELAND",
-                     "ctaLink":  "/categoria/gpus",
-                     "id":  "ban-gpus-peland",
-                     "image":  "/banners/GRAFICAS/PELAND.jpg"
-                 }
-             ],
-    "refrigeracion":  [
-                          {
-                              "cta":  "VER REFRIGERACION AMD",
-                              "ctaLink":  "/categoria/refrigeracion",
-                              "id":  "ban-refrigeracion-amd",
-                              "image":  "/banners/REFRIGERACION/AMD.jpg"
-                          },
-                          {
-                              "cta":  "VER REFRIGERACION EXCAVATOR",
-                              "ctaLink":  "/categoria/refrigeracion",
-                              "id":  "ban-refrigeracion-excavator",
-                              "image":  "/banners/REFRIGERACION/EXCAVATOR.jpg"
-                          },
-                          {
-                              "cta":  "VER REFRIGERACION INTEL",
-                              "ctaLink":  "/categoria/refrigeracion",
-                              "id":  "ban-refrigeracion-intel",
-                              "image":  "/banners/REFRIGERACION/INTEL.jpg"
-                          },
-                          {
-                              "cta":  "VER REFRIGERACION MSI",
-                              "ctaLink":  "/categoria/refrigeracion",
-                              "id":  "ban-refrigeracion-msi",
-                              "image":  "/banners/REFRIGERACION/MSI.jpg"
-                          },
-                          {
-                              "cta":  "VER REFRIGERACION ROG",
-                              "ctaLink":  "/categoria/refrigeracion",
-                              "id":  "ban-refrigeracion-rog",
-                              "image":  "/banners/REFRIGERACION/ROG.jpg"
-                          },
-                          {
-                              "cta":  "VER REFRIGERACION TEROS",
-                              "ctaLink":  "/categoria/refrigeracion",
-                              "id":  "ban-refrigeracion-teros",
-                              "image":  "/banners/REFRIGERACION/TEROS.jpg"
-                          }
-                      ],
-    "ram":  [
-                {
-                    "cta":  "VER RAM CORSAIR",
-                    "ctaLink":  "/categoria/ram",
-                    "id":  "ban-ram-corsair",
-                    "image":  "/banners/RAM/CORSAIR.jpg"
-                },
-                {
-                    "cta":  "VER RAM KINGSTOM",
-                    "ctaLink":  "/categoria/ram",
-                    "id":  "ban-ram-kingstom",
-                    "image":  "/banners/RAM/KINGSTOM.jpg"
-                },
-                {
-                    "cta":  "VER RAM PNY",
-                    "ctaLink":  "/categoria/ram",
-                    "id":  "ban-ram-pny",
-                    "image":  "/banners/RAM/PNY.jpg"
-                },
-                {
-                    "cta":  "VER RAM SAMSUMG",
-                    "ctaLink":  "/categoria/ram",
-                    "id":  "ban-ram-samsumg",
-                    "image":  "/banners/RAM/SAMSUMG.jpg"
-                },
-                {
-                    "cta":  "VER RAM XPG",
-                    "ctaLink":  "/categoria/ram",
-                    "id":  "ban-ram-xpg",
-                    "image":  "/banners/RAM/XPG.jpg"
-                }
-            ],
-    "perifericos":  [
-                        {
-                            "cta":  "VER PERIFERICOS ANTRYX",
-                            "ctaLink":  "/categoria/perifericos",
-                            "id":  "ban-perifericos-antryx",
-                            "image":  "/banners/PERIFERICOS/antryx.jpg"
-                        },
-                        {
-                            "cta":  "VER PERIFERICOS ENKORE",
-                            "ctaLink":  "/categoria/perifericos",
-                            "id":  "ban-perifericos-enkore",
-                            "image":  "/banners/PERIFERICOS/enkore.png"
-                        },
-                        {
-                            "cta":  "VER PERIFERICOS IBLUE",
-                            "ctaLink":  "/categoria/perifericos",
-                            "id":  "ban-perifericos-iblue",
-                            "image":  "/banners/PERIFERICOS/iblue.jpg"
-                        },
-                        {
-                            "cta":  "VER PERIFERICOS IO ESPORTS",
-                            "ctaLink":  "/categoria/perifericos",
-                            "id":  "ban-perifericos-io-esports",
-                            "image":  "/banners/PERIFERICOS/io esports.jpg"
-                        },
-                        {
-                            "cta":  "VER PERIFERICOS KIIPXTREME",
-                            "ctaLink":  "/categoria/perifericos",
-                            "id":  "ban-perifericos-kiipxtreme",
-                            "image":  "/banners/PERIFERICOS/kiipxtreme.jpg"
-                        },
-                        {
-                            "cta":  "VER PERIFERICOS MSI",
-                            "ctaLink":  "/categoria/perifericos",
-                            "id":  "ban-perifericos-msi",
-                            "image":  "/banners/PERIFERICOS/msi.jpg"
-                        },
-                        {
-                            "cta":  "VER PERIFERICOS TEROS",
-                            "ctaLink":  "/categoria/perifericos",
-                            "id":  "ban-perifericos-teros",
-                            "image":  "/banners/PERIFERICOS/teros.jpg"
-                        }
-                    ],
-    "almacenamiento":  [
-                           {
-                               "cta":  "VER ALMACENAMIENTO KINGSTON",
-                               "ctaLink":  "/categoria/almacenamiento",
-                               "id":  "ban-almacenamiento-kingston",
-                               "image":  "/banners/SSD/KINGSTON.jpg"
-                           },
-                           {
-                               "cta":  "VER ALMACENAMIENTO SEAGATE",
-                               "ctaLink":  "/categoria/almacenamiento",
-                               "id":  "ban-almacenamiento-seagate",
-                               "image":  "/banners/SSD/SEAGATE.jpg"
-                           },
-                           {
-                               "cta":  "VER ALMACENAMIENTO SSD",
-                               "ctaLink":  "/categoria/almacenamiento",
-                               "id":  "ban-almacenamiento-ssd",
-                               "image":  "/banners/SSD/SSD.jpg"
-                           },
-                           {
-                               "cta":  "VER ALMACENAMIENTO WESTENER DIGITAL",
-                               "ctaLink":  "/categoria/almacenamiento",
-                               "id":  "ban-almacenamiento-westener-digital",
-                               "image":  "/banners/SSD/WESTENER DIGITAL.jpg"
-                           }
-                       ],
-    "sillas-gamer":  [
-                         {
-                             "cta":  "VER SILLAS-GAMER ABADDONX",
-                             "ctaLink":  "/categoria/sillas-gamer",
-                             "id":  "ban-sillas-gamer-abaddonx",
-                             "image":  "/banners/SILLA-GAMER/ABADDONX.jpg"
-                         }
-                     ],
-    "monitores":  [
-                      {
-                          "cta":  "VER MONITORES HP",
-                          "ctaLink":  "/categoria/monitores",
-                          "id":  "ban-monitores-hp",
-                          "image":  "/banners/MONITORES/HP.jpg"
-                      },
-                      {
-                          "cta":  "VER MONITORES LG",
-                          "ctaLink":  "/categoria/monitores",
-                          "id":  "ban-monitores-lg",
-                          "image":  "/banners/MONITORES/LG.jpg"
-                      },
-                      {
-                          "cta":  "VER MONITORES MARCAS",
-                          "ctaLink":  "/categoria/monitores",
-                          "id":  "ban-monitores-marcas",
-                          "image":  "/banners/MONITORES/MARCAS.jpg"
-                      },
-                      {
-                          "cta":  "VER MONITORES SAMSUMG",
-                          "ctaLink":  "/categoria/monitores",
-                          "id":  "ban-monitores-samsumg",
-                          "image":  "/banners/MONITORES/SAMSUMG.jpg"
-                      }
-                  ],
-    "laptops":  [
-                    {
-                        "cta":  "VER LAPTOPS ACER",
-                        "ctaLink":  "/categoria/laptops",
-                        "id":  "ban-laptops-acer",
-                        "image":  "/banners/LAPTOP/acer.jpg"
-                    },
-                    {
-                        "cta":  "VER LAPTOPS APPLE",
-                        "ctaLink":  "/categoria/laptops",
-                        "id":  "ban-laptops-apple",
-                        "image":  "/banners/LAPTOP/apple.jpg"
-                    },
-                    {
-                        "cta":  "VER LAPTOPS ASU",
-                        "ctaLink":  "/categoria/laptops",
-                        "id":  "ban-laptops-asu",
-                        "image":  "/banners/LAPTOP/asu.jpg"
-                    },
-                    {
-                        "cta":  "VER LAPTOPS DELL",
-                        "ctaLink":  "/categoria/laptops",
-                        "id":  "ban-laptops-dell",
-                        "image":  "/banners/LAPTOP/dell.jpg"
-                    },
-                    {
-                        "cta":  "VER LAPTOPS GIGABYTE",
-                        "ctaLink":  "/categoria/laptops",
-                        "id":  "ban-laptops-gigabyte",
-                        "image":  "/banners/LAPTOP/gigabyte.jpg"
-                    },
-                    {
-                        "cta":  "VER LAPTOPS HP",
-                        "ctaLink":  "/categoria/laptops",
-                        "id":  "ban-laptops-hp",
-                        "image":  "/banners/LAPTOP/hp.jpg"
-                    },
-                    {
-                        "cta":  "VER LAPTOPS LENOVO",
-                        "ctaLink":  "/categoria/laptops",
-                        "id":  "ban-laptops-lenovo",
-                        "image":  "/banners/LAPTOP/lenovo.jpg"
-                    },
-                    {
-                        "cta":  "VER LAPTOPS MSI",
-                        "ctaLink":  "/categoria/laptops",
-                        "id":  "ban-laptops-msi",
-                        "image":  "/banners/LAPTOP/msi.jpg"
-                    },
-                    {
-                        "cta":  "VER LAPTOPS RAZER",
-                        "ctaLink":  "/categoria/laptops",
-                        "id":  "ban-laptops-razer",
-                        "image":  "/banners/LAPTOP/razer.jpg"
-                    }
-                ],
-    "gabinetes":  [
-                      {
-                          "cta":  "VER GABINETES ANTRIX",
-                          "ctaLink":  "/categoria/gabinetes",
-                          "id":  "ban-gabinetes-antrix",
-                          "image":  "/banners/CASE/antrix.jpg"
-                      },
-                      {
-                          "cta":  "VER GABINETES CYBERTEL",
-                          "ctaLink":  "/categoria/gabinetes",
-                          "id":  "ban-gabinetes-cybertel",
-                          "image":  "/banners/CASE/cybertel.jpg"
-                      },
-                      {
-                          "cta":  "VER GABINETES ENKORE",
-                          "ctaLink":  "/categoria/gabinetes",
-                          "id":  "ban-gabinetes-enkore",
-                          "image":  "/banners/CASE/enkore.jpg"
-                      },
-                      {
-                          "cta":  "VER GABINETES MICRONICS",
-                          "ctaLink":  "/categoria/gabinetes",
-                          "id":  "ban-gabinetes-micronics",
-                          "image":  "/banners/CASE/micronics.jpg"
-                      },
-                      {
-                          "cta":  "VER GABINETES ROG",
-                          "ctaLink":  "/categoria/gabinetes",
-                          "id":  "ban-gabinetes-rog",
-                          "image":  "/banners/CASE/rog.jpg"
-                      },
-                      {
-                          "cta":  "VER GABINETES RUIX",
-                          "ctaLink":  "/categoria/gabinetes",
-                          "id":  "ban-gabinetes-ruix",
-                          "image":  "/banners/CASE/ruix.jpg"
-                      },
-                      {
-                          "cta":  "VER GABINETES TEROS",
-                          "ctaLink":  "/categoria/gabinetes",
-                          "id":  "ban-gabinetes-teros",
-                          "image":  "/banners/CASE/teros.jpg"
-                      },
-                      {
-                          "cta":  "VER GABINETES THERMALTAKE",
-                          "ctaLink":  "/categoria/gabinetes",
-                          "id":  "ban-gabinetes-thermaltake",
-                          "image":  "/banners/CASE/thermaltake.jpg"
-                      },
-                      {
-                          "cta":  "VER GABINETES XANTRIX",
-                          "ctaLink":  "/categoria/gabinetes",
-                          "id":  "ban-gabinetes-xantrix",
-                          "image":  "/banners/CASE/xantrix.jpg"
-                      }
-                  ]
+  "placas-madre": [
+    {
+      "cta": "VER PLACAS-MADRE ASROCK",
+      "ctaLink": "/categoria/placas-madre",
+      "id": "ban-placas-madre-asrock",
+      "image": "/banners/PLACA MADRE/asrock.jpg"
+    },
+    {
+      "cta": "VER PLACAS-MADRE ASUS",
+      "ctaLink": "/categoria/placas-madre",
+      "id": "ban-placas-madre-asus",
+      "image": "/banners/PLACA MADRE/asus.jpg"
+    },
+    {
+      "cta": "VER PLACAS-MADRE ESONIC",
+      "ctaLink": "/categoria/placas-madre",
+      "id": "ban-placas-madre-esonic",
+      "image": "/banners/PLACA MADRE/esonic.jpg"
+    },
+    {
+      "cta": "VER PLACAS-MADRE GIGABYTE",
+      "ctaLink": "/categoria/placas-madre",
+      "id": "ban-placas-madre-gigabyte",
+      "image": "/banners/PLACA MADRE/gigabyte.jpg"
+    },
+    {
+      "cta": "VER PLACAS-MADRE MSI",
+      "ctaLink": "/categoria/placas-madre",
+      "id": "ban-placas-madre-msi",
+      "image": "/banners/PLACA MADRE/msi.jpg"
+    },
+    {
+      "cta": "VER PLACAS-MADRE ROG",
+      "ctaLink": "/categoria/placas-madre",
+      "id": "ban-placas-madre-rog",
+      "image": "/banners/PLACA MADRE/rog.jpg"
+    },
+    {
+      "cta": "VER PLACAS-MADRE WINFOX",
+      "ctaLink": "/categoria/placas-madre",
+      "id": "ban-placas-madre-winfox",
+      "image": "/banners/PLACA MADRE/winfox.jpg"
+    },
+    {
+      "cta": "VER PLACAS-MADRE X BIOS",
+      "ctaLink": "/categoria/placas-madre",
+      "id": "ban-placas-madre-x-bios",
+      "image": "/banners/PLACA MADRE/x bios.jpg"
+    }
+  ],
+  "procesadores": [
+    {
+      "cta": "VER PROCESADORES AMD",
+      "ctaLink": "/categoria/procesadores",
+      "id": "ban-procesadores-amd",
+      "image": "/banners/PROCESADORES/AMD.jpg"
+    },
+    {
+      "cta": "VER PROCESADORES INTEL",
+      "ctaLink": "/categoria/procesadores",
+      "id": "ban-procesadores-intel",
+      "image": "/banners/PROCESADORES/INTEL.jpg"
+    }
+  ],
+  "fuentes": [
+    {
+      "cta": "VER FUENTES ANTRIX",
+      "ctaLink": "/categoria/fuentes",
+      "id": "ban-fuentes-antrix",
+      "image": "/banners/FUENTE DE PODER/antrix.jpg"
+    },
+    {
+      "cta": "VER FUENTES EVGA",
+      "ctaLink": "/categoria/fuentes",
+      "id": "ban-fuentes-evga",
+      "image": "/banners/FUENTE DE PODER/EVGA.jpg"
+    },
+    {
+      "cta": "VER FUENTES GIGABYTE",
+      "ctaLink": "/categoria/fuentes",
+      "id": "ban-fuentes-gigabyte",
+      "image": "/banners/FUENTE DE PODER/gigabyte.jpg"
+    },
+    {
+      "cta": "VER FUENTES MICRONICS",
+      "ctaLink": "/categoria/fuentes",
+      "id": "ban-fuentes-micronics",
+      "image": "/banners/FUENTE DE PODER/micronics.jpg"
+    },
+    {
+      "cta": "VER FUENTES MSI",
+      "ctaLink": "/categoria/fuentes",
+      "id": "ban-fuentes-msi",
+      "image": "/banners/FUENTE DE PODER/msi.jpg"
+    },
+    {
+      "cta": "VER FUENTES ROG",
+      "ctaLink": "/categoria/fuentes",
+      "id": "ban-fuentes-rog",
+      "image": "/banners/FUENTE DE PODER/rog.jpg"
+    },
+    {
+      "cta": "VER FUENTES TEROS",
+      "ctaLink": "/categoria/fuentes",
+      "id": "ban-fuentes-teros",
+      "image": "/banners/FUENTE DE PODER/teros.jpg"
+    },
+    {
+      "cta": "VER FUENTES XPG",
+      "ctaLink": "/categoria/fuentes",
+      "id": "ban-fuentes-xpg",
+      "image": "/banners/FUENTE DE PODER/XPG.jpg"
+    }
+  ],
+  "camaras": [
+    {
+      "cta": "VER CAMARAS MICRONICS",
+      "ctaLink": "/categoria/camaras",
+      "id": "ban-camaras-micronics",
+      "image": "/banners/WEB-CAM/MICRONICS.jpg"
+    },
+    {
+      "cta": "VER CAMARAS TEROS",
+      "ctaLink": "/categoria/camaras",
+      "id": "ban-camaras-teros",
+      "image": "/banners/WEB-CAM/TEROS.jpg"
+    }
+  ],
+  "gpus": [
+    {
+      "cta": "VER GPUS AMD",
+      "ctaLink": "/categoria/gpus",
+      "id": "ban-gpus-amd",
+      "image": "/banners/GRAFICAS/AMD.jpg"
+    },
+    {
+      "cta": "VER GPUS ASUS",
+      "ctaLink": "/categoria/gpus",
+      "id": "ban-gpus-asus",
+      "image": "/banners/GRAFICAS/ASUS.jpg"
+    },
+    {
+      "cta": "VER GPUS NVIDIA",
+      "ctaLink": "/categoria/gpus",
+      "id": "ban-gpus-nvidia",
+      "image": "/banners/GRAFICAS/NVIDIA.jpg"
+    },
+    {
+      "cta": "VER GPUS PELAND",
+      "ctaLink": "/categoria/gpus",
+      "id": "ban-gpus-peland",
+      "image": "/banners/GRAFICAS/PELAND.jpg"
+    }
+  ],
+  "refrigeracion": [
+    {
+      "cta": "VER REFRIGERACION AMD",
+      "ctaLink": "/categoria/refrigeracion",
+      "id": "ban-refrigeracion-amd",
+      "image": "/banners/REFRIGERACION/AMD.jpg"
+    },
+    {
+      "cta": "VER REFRIGERACION EXCAVATOR",
+      "ctaLink": "/categoria/refrigeracion",
+      "id": "ban-refrigeracion-excavator",
+      "image": "/banners/REFRIGERACION/EXCAVATOR.jpg"
+    },
+    {
+      "cta": "VER REFRIGERACION INTEL",
+      "ctaLink": "/categoria/refrigeracion",
+      "id": "ban-refrigeracion-intel",
+      "image": "/banners/REFRIGERACION/INTEL.jpg"
+    },
+    {
+      "cta": "VER REFRIGERACION MSI",
+      "ctaLink": "/categoria/refrigeracion",
+      "id": "ban-refrigeracion-msi",
+      "image": "/banners/REFRIGERACION/MSI.jpg"
+    },
+    {
+      "cta": "VER REFRIGERACION ROG",
+      "ctaLink": "/categoria/refrigeracion",
+      "id": "ban-refrigeracion-rog",
+      "image": "/banners/REFRIGERACION/ROG.jpg"
+    },
+    {
+      "cta": "VER REFRIGERACION TEROS",
+      "ctaLink": "/categoria/refrigeracion",
+      "id": "ban-refrigeracion-teros",
+      "image": "/banners/REFRIGERACION/TEROS.jpg"
+    }
+  ],
+  "ram": [
+    {
+      "cta": "VER RAM CORSAIR",
+      "ctaLink": "/categoria/ram",
+      "id": "ban-ram-corsair",
+      "image": "/banners/RAM/CORSAIR.jpg"
+    },
+    {
+      "cta": "VER RAM KINGSTOM",
+      "ctaLink": "/categoria/ram",
+      "id": "ban-ram-kingstom",
+      "image": "/banners/RAM/KINGSTOM.jpg"
+    },
+    {
+      "cta": "VER RAM PNY",
+      "ctaLink": "/categoria/ram",
+      "id": "ban-ram-pny",
+      "image": "/banners/RAM/PNY.jpg"
+    },
+    {
+      "cta": "VER RAM SAMSUMG",
+      "ctaLink": "/categoria/ram",
+      "id": "ban-ram-samsumg",
+      "image": "/banners/RAM/SAMSUMG.jpg"
+    },
+    {
+      "cta": "VER RAM XPG",
+      "ctaLink": "/categoria/ram",
+      "id": "ban-ram-xpg",
+      "image": "/banners/RAM/XPG.jpg"
+    }
+  ],
+  "perifericos": [
+    {
+      "cta": "VER PERIFERICOS ANTRYX",
+      "ctaLink": "/categoria/perifericos",
+      "id": "ban-perifericos-antryx",
+      "image": "/banners/PERIFERICOS/antryx.jpg"
+    },
+    {
+      "cta": "VER PERIFERICOS ENKORE",
+      "ctaLink": "/categoria/perifericos",
+      "id": "ban-perifericos-enkore",
+      "image": "/banners/PERIFERICOS/enkore.png"
+    },
+    {
+      "cta": "VER PERIFERICOS IBLUE",
+      "ctaLink": "/categoria/perifericos",
+      "id": "ban-perifericos-iblue",
+      "image": "/banners/PERIFERICOS/iblue.jpg"
+    },
+    {
+      "cta": "VER PERIFERICOS IO ESPORTS",
+      "ctaLink": "/categoria/perifericos",
+      "id": "ban-perifericos-io-esports",
+      "image": "/banners/PERIFERICOS/io esports.jpg"
+    },
+    {
+      "cta": "VER PERIFERICOS KIIPXTREME",
+      "ctaLink": "/categoria/perifericos",
+      "id": "ban-perifericos-kiipxtreme",
+      "image": "/banners/PERIFERICOS/kiipxtreme.jpg"
+    },
+    {
+      "cta": "VER PERIFERICOS MSI",
+      "ctaLink": "/categoria/perifericos",
+      "id": "ban-perifericos-msi",
+      "image": "/banners/PERIFERICOS/msi.jpg"
+    },
+    {
+      "cta": "VER PERIFERICOS TEROS",
+      "ctaLink": "/categoria/perifericos",
+      "id": "ban-perifericos-teros",
+      "image": "/banners/PERIFERICOS/teros.jpg"
+    }
+  ],
+  "almacenamiento": [
+    {
+      "cta": "VER ALMACENAMIENTO KINGSTON",
+      "ctaLink": "/categoria/almacenamiento",
+      "id": "ban-almacenamiento-kingston",
+      "image": "/banners/SSD/KINGSTON.jpg"
+    },
+    {
+      "cta": "VER ALMACENAMIENTO SEAGATE",
+      "ctaLink": "/categoria/almacenamiento",
+      "id": "ban-almacenamiento-seagate",
+      "image": "/banners/SSD/SEAGATE.jpg"
+    },
+    {
+      "cta": "VER ALMACENAMIENTO SSD",
+      "ctaLink": "/categoria/almacenamiento",
+      "id": "ban-almacenamiento-ssd",
+      "image": "/banners/SSD/SSD.jpg"
+    },
+    {
+      "cta": "VER ALMACENAMIENTO WESTENER DIGITAL",
+      "ctaLink": "/categoria/almacenamiento",
+      "id": "ban-almacenamiento-westener-digital",
+      "image": "/banners/SSD/WESTENER DIGITAL.jpg"
+    }
+  ],
+  "sillas-gamer": [
+    {
+      "cta": "VER SILLAS-GAMER ABADDONX",
+      "ctaLink": "/categoria/sillas-gamer",
+      "id": "ban-sillas-gamer-abaddonx",
+      "image": "/banners/SILLA-GAMER/ABADDONX.jpg"
+    }
+  ],
+  "monitores": [
+    {
+      "cta": "VER MONITORES HP",
+      "ctaLink": "/categoria/monitores",
+      "id": "ban-monitores-hp",
+      "image": "/banners/MONITORES/HP.jpg"
+    },
+    {
+      "cta": "VER MONITORES LG",
+      "ctaLink": "/categoria/monitores",
+      "id": "ban-monitores-lg",
+      "image": "/banners/MONITORES/LG.jpg"
+    },
+    {
+      "cta": "VER MONITORES MARCAS",
+      "ctaLink": "/categoria/monitores",
+      "id": "ban-monitores-marcas",
+      "image": "/banners/MONITORES/MARCAS.jpg"
+    },
+    {
+      "cta": "VER MONITORES SAMSUMG",
+      "ctaLink": "/categoria/monitores",
+      "id": "ban-monitores-samsumg",
+      "image": "/banners/MONITORES/SAMSUMG.jpg"
+    }
+  ],
+  "laptops": [
+    {
+      "cta": "VER LAPTOPS ACER",
+      "ctaLink": "/categoria/laptops",
+      "id": "ban-laptops-acer",
+      "image": "/banners/LAPTOP/acer.jpg"
+    },
+    {
+      "cta": "VER LAPTOPS APPLE",
+      "ctaLink": "/categoria/laptops",
+      "id": "ban-laptops-apple",
+      "image": "/banners/LAPTOP/apple.jpg"
+    },
+    {
+      "cta": "VER LAPTOPS ASU",
+      "ctaLink": "/categoria/laptops",
+      "id": "ban-laptops-asu",
+      "image": "/banners/LAPTOP/asu.jpg"
+    },
+    {
+      "cta": "VER LAPTOPS DELL",
+      "ctaLink": "/categoria/laptops",
+      "id": "ban-laptops-dell",
+      "image": "/banners/LAPTOP/dell.jpg"
+    },
+    {
+      "cta": "VER LAPTOPS GIGABYTE",
+      "ctaLink": "/categoria/laptops",
+      "id": "ban-laptops-gigabyte",
+      "image": "/banners/LAPTOP/gigabyte.jpg"
+    },
+    {
+      "cta": "VER LAPTOPS HP",
+      "ctaLink": "/categoria/laptops",
+      "id": "ban-laptops-hp",
+      "image": "/banners/LAPTOP/hp.jpg"
+    },
+    {
+      "cta": "VER LAPTOPS LENOVO",
+      "ctaLink": "/categoria/laptops",
+      "id": "ban-laptops-lenovo",
+      "image": "/banners/LAPTOP/lenovo.jpg"
+    },
+    {
+      "cta": "VER LAPTOPS MSI",
+      "ctaLink": "/categoria/laptops",
+      "id": "ban-laptops-msi",
+      "image": "/banners/LAPTOP/msi.jpg"
+    },
+    {
+      "cta": "VER LAPTOPS RAZER",
+      "ctaLink": "/categoria/laptops",
+      "id": "ban-laptops-razer",
+      "image": "/banners/LAPTOP/razer.jpg"
+    }
+  ],
+  "gabinetes": [
+    {
+      "cta": "VER GABINETES ANTRIX",
+      "ctaLink": "/categoria/gabinetes",
+      "id": "ban-gabinetes-antrix",
+      "image": "/banners/CASE/antrix.jpg"
+    },
+    {
+      "cta": "VER GABINETES CYBERTEL",
+      "ctaLink": "/categoria/gabinetes",
+      "id": "ban-gabinetes-cybertel",
+      "image": "/banners/CASE/cybertel.jpg"
+    },
+    {
+      "cta": "VER GABINETES ENKORE",
+      "ctaLink": "/categoria/gabinetes",
+      "id": "ban-gabinetes-enkore",
+      "image": "/banners/CASE/enkore.jpg"
+    },
+    {
+      "cta": "VER GABINETES MICRONICS",
+      "ctaLink": "/categoria/gabinetes",
+      "id": "ban-gabinetes-micronics",
+      "image": "/banners/CASE/micronics.jpg"
+    },
+    {
+      "cta": "VER GABINETES ROG",
+      "ctaLink": "/categoria/gabinetes",
+      "id": "ban-gabinetes-rog",
+      "image": "/banners/CASE/rog.jpg"
+    },
+    {
+      "cta": "VER GABINETES RUIX",
+      "ctaLink": "/categoria/gabinetes",
+      "id": "ban-gabinetes-ruix",
+      "image": "/banners/CASE/ruix.jpg"
+    },
+    {
+      "cta": "VER GABINETES TEROS",
+      "ctaLink": "/categoria/gabinetes",
+      "id": "ban-gabinetes-teros",
+      "image": "/banners/CASE/teros.jpg"
+    },
+    {
+      "cta": "VER GABINETES THERMALTAKE",
+      "ctaLink": "/categoria/gabinetes",
+      "id": "ban-gabinetes-thermaltake",
+      "image": "/banners/CASE/thermaltake.jpg"
+    },
+    {
+      "cta": "VER GABINETES XANTRIX",
+      "ctaLink": "/categoria/gabinetes",
+      "id": "ban-gabinetes-xantrix",
+      "image": "/banners/CASE/xantrix.jpg"
+    }
+  ]
 }
