@@ -1,0 +1,175 @@
+﻿--- ALMACENAMIENTO ---
+Disco M.2 NVMe Samsung 256GB OEM
+Disco Kingston M.2 NVMe 1TB OEM
+SSD Kingston NV3 1TB M.2 NVMe PCIe 4.0 x4
+SSD Kingston NV3 500GB M.2 NVMe PCIe 4.0 x4
+HDD Western Digital 6TB Purple (Videovigilancia)
+HDD Seagate Exos 10TB 7E10
+
+--- CAMARAS ---
+CÃ¡mara Teros TE-9073N 4K
+CÃ¡mara Teros TE-9072 2K + TrÃ­pode
+Webcam Micronics Quantum MIC-W700 2K Quad HD + TrÃ­pode
+
+--- FUENTES ---
+UPS SAT UR1000+ 1000VA/500W Interactiva AVR
+Fuente Teros 600W 80 Plus Bronze TE-7160
+Fuente XPG Pylon 750W 80 Plus Bronze
+Fuente XPG Pylon 650W 80 Plus Bronze
+Fuente MSI MAG A650W 80 Plus Bronze Certificada
+Fuente Gigabyte 850W Full Modular 80 Plus Gold
+Fuente Gigabyte P750W GM 80 Plus Gold Certificada
+Fuente Antrix Kirin 850W 80 Plus Gold
+Fuente EVGA 750W 80 Plus Gold
+Fuente ROG Gaming GX850 80 Plus Bronze PCIe Gen 5
+Fuente Real Avatec 350W
+Fuente Micronics Mini 250W SX Micro-ATX
+Fuente Micronics 250W ATX Cable Largo
+Fuente Cybertel PS SX2000 230W ATX Fan 12cm
+Fuente BÃ¡sica Avatec 600W
+Fuente Avatec Enermax 550W Real
+Fuente Avatec Enermax 450W Real
+Fuente Ruix 500W 80 Plus White
+Fuente ROG Gaming Plus 600W 80 Plus White
+
+--- GABINETES ---
+Case ROG Gaming X Aero Space Ultra 7 Coolers ATX
+Case ROG Gaming X Aero Space Ultra Vision Negro 4 Coolers
+Case ROG Gaming X Aero Space Ultra Vision Blanco 4 Coolers
+Case ROG Gaming X Aero Space ProMax Negro 4 Coolers
+Case ROG Gaming X Aero Space ProMax Blanco 4 Coolers
+Case Ruix Negro ATX Tipo Pecera
+Case Gran Z GZ3302 2 Coolers incluidos
+Case Teros TE-1314G Gaming Negro 4 Fan ARGB
+Case Teros TE-1316G Gaming Blanco 4 Fan ARGB
+Case Cybertel Robot Negro 6 Coolers ARGB
+Case Micronics Frantic GC702 + Fuente Real 650W
+Case Micronics Furious GC701 + Fuente Real 650W
+Case Falcon Enkore ENC 5000 ATX 4 Fan Rainbow
+Case Thermaltake Versa J25 + Fuente 600W RGB
+Case Micronics Fanatic Legend FNT 8007 ATX
+Case Antrix RX Vortex + Fuente 600W Real Coolers Rainbow
+Case Enkore Nitro ENC 1000 230W Negro
+Case Cybertel Derby Slim 230W CBX C1005 2 Fan
+Case BÃ¡sico Xantrix con Fuente 230W
+
+--- GPUS ---
+Tarjeta GrÃ¡fica ROG Gaming GT610 2GB DDR3
+Tarjeta GrÃ¡fica Peland GT730 4GB DDR3 Bajo Perfil
+Tarjeta GrÃ¡fica Peland RX 5500 XT 8GB GDDR6
+NVIDIA GeForce RTX 4070 Ti SUPER 12GB GDDR6X
+NVIDIA GeForce RTX 4060 8GB GDDR6
+AMD Radeon RX 7800 XT 16GB GDDR6
+NVIDIA GeForce RTX 4080 16GB GDDR6X
+
+--- LAPTOPS ---
+Laptop Gaming ASUS TUF F15 i7 RTX 4060
+Lenovo Legion 5 Ryzen 7 RTX 4070 16GB
+MSI Katana 15 i7 RTX 4050 16GB
+HP Victus 16 i5 RTX 3050 16GB
+Acer Nitro 5 Ryzen 5 RTX 3050 8GB
+Dell G15 i7 RTX 3060 16GB 1TB
+ASUS ROG Strix G16 i9 RTX 4080 32GB
+Gigabyte G5 i5 RTX 4060 16GB
+Razer Blade 15 i7 RTX 4070 16GB
+Apple MacBook Pro 14" M3 16GB 512GB
+
+--- MONITORES ---
+Monitor Cooler Master CMI GA2501 24.5" Plano IPS
+Monitor LG 24" Plano Ultragear 24G411A-B 144Hz
+Monitor LG 32" Curvo VA FHD 100Hz 32MR50C-B
+Monitor Teros 2420CS Plano 100Hz 5MS IPS
+Monitor Teros 1915S 19.5" HD 75Hz Plano
+Monitor Teros 23.8" TE-2403S VA Curvo 144Hz 1MS
+Monitor Teros 2415S 24" Plano 120Hz FHD IPS
+Monitor Teros 2417S Plano 144Hz 1MS FHD 24"
+Monitor Teros 27" Plano TE-2714S 144Hz FHD
+Monitor Teros TE-2734S Curvo 27" VA 144Hz 1ms
+Monitor Teros TE-2766G 27" Curvo Gaming 180Hz Pivot
+Monitor Teros 49" TE-4920G DQHD Curvo QD-OLED 144Hz
+Monitor HP V22iG5 Plano 22" FHD 75Hz
+Monitor Samsung Plano 22" 75Hz LS22D310EALXPE
+Monitor Samsung 24" FHD IPS 100Hz LS24F330EALXPE
+Monitor Xiaomi 27" G27i 2026 IPS FHD 200Hz 1MS
+Monitor Xiaomi 27" G27i Plano IPS FHD 165Hz 1MS
+Monitor Xiaomi 24" A24I Plano IPS 100Hz FHD
+Monitor Micronics 24" Fenix Plano FHD 120Hz 3MS
+Monitor Micronics Brickell 24" Curvo VA 100Hz 3MS
+Monitor Micronics Matrix XT Gamer 27" QHD 180Hz IPS Pivot
+Monitor Micronics Brickell 27" Curvo VA 100Hz 3MS
+Monitor Micronics Fenix 27 Plano 144Hz 1MS IPS FreeSync
+Monitor Micronics Player 27" Plano IPS 200Hz 1MS FreeSync
+
+--- PERIFERICOS ---
+Parlante InalÃ¡mbrico Teros 6045N 60W LED
+Parlante InalÃ¡mbrico Teros 6047N 20W RGB
+AudÃ­fono Gaming Antryx Chrome Storm GH530 RGB
+AudÃ­fono Gamer Enkore Kingdom EKHG-1000 USB 5.1
+AudÃ­fono Klip Xtreme Akoustik FX Gaming con MicrÃ³fono
+AudÃ­fono RGB IO Esports Phantom Gaming 2.1 Stereo
+AudÃ­fono RGB IO Esports Crusader Gaming 2.1 Stereo
+AudÃ­fono iBLUE Scream S019 Bluetooth Manos Libres
+AudÃ­fono MSI DS501 Gaming Jack 3.5mm
+Kit Teros 4063N 4 en 1 (Teclado + AudÃ­fono + Mouse + Pad)
+Teclado Teros Multimedia TE-4069S Blanco
+Mouse Pad Teros TE-3018S 320x270x3mm
+
+--- PLACAS-MADRE ---
+Placa Esonic H81 LGA 1150 4ta GeneraciÃ³n
+Placa ROG Gaming H610M DDR5 LGA 1700 (12-14va Gen)
+Placa X BIOS H61 LGA 1155 2da-3ra Gen
+Placa ASRock H470M-HVS LGA 1200 10ma Gen (Sin M.2)
+Placa MSI B550M PRO-VDH WIFI AM4 DDR4
+Placa Gigabyte A520M K V2 AM4 DDR4 (Ryzen 3000-5000)
+Placa Gigabyte H610M K DDR4 LGA 1700
+Placa ASUS A520M-K Socket AM4
+Placa MSI A520M-A PRO AM4 DDR4 M.2
+Placa ASUS H610 DDR5 LGA 1700 (12-14va Gen)
+Placa Astrom AST B450-2 AM4 DDR4 by Micronic
+Placa Winnfox A320 AM4 DDR4 M.2 NVMe (Ryzen 1ra-3ra Gen)
+Placa Winnfox B250 DDR4 M.2 NVMe (6ta-9na Gen)
+Placa Winfox B75 LGA 1155 DDR3 M.2 (2da-3ra Gen)
+Placa Esonic H81DA DDR3 LGA 1150 4ta Gen SATA/NVMe
+Placa Esonic H110DA DDR4 LGA 1151 (6ta-9na Gen)
+Placa Esonic H61DA DDR3 LGA 1155 (2da-3ra Gen)
+
+--- PROCESADORES ---
+Procesador Intel Core Ultra 5 225F LGA 1851
+Procesador Intel Core i5-12600KF LGA 1700
+Procesador AMD Ryzen 5 8500G 6 Core AM4 5.0GHz
+Procesador AMD Ryzen 9 9900X 12 NÃºcleos AM5
+Procesador AMD Ryzen 5 9600X 6 NÃºcleos AM5
+Procesador AMD Ryzen 5 8600G 6 Core AM4 5.0GHz
+Procesador AMD Ryzen 5 5500 AM4
+Procesador AMD Ryzen 5 7600X AM5 5.3GHz
+
+--- RAM ---
+Memoria PNY LR8 Duo 2x16 32GB DDR4 3200MHz RGB
+Memoria Corsair Vengeance 2x8 16GB DDR4 3600MHz
+Memoria XPG Spectrix D60G 8GB DDR4 3200MHz RGB
+Memoria Kingston Laptop 8GB DDR4 3200MHz
+Memoria Kingston Laptop 16GB DDR5 5600MHz
+Memoria OEM Laptop 8GB Hynix DDR4 2400MHz
+Memoria OEM Laptop 8GB Samsung DDR4 2666MHz
+Memoria Kingston Laptop 16GB DDR4 3200MHz CL22
+Memoria Kingston Laptop DDR3 8GB 1600MHz
+
+--- REFRIGERACION ---
+RefrigeraciÃ³n LÃ­quida 240mm Excavator Negro con Reloj de Temperatura
+Cooler Intel LGA 1700 OEM 12va Gen (Alder Lake)
+Cooler Teros TE-8161N Intel/AMD Fan Rainbow
+Cooler Teros TE-8162N Intel/AMD TDP 150W
+Cooler MSI 120mm Original
+Cooler AMD Original Wraith
+Cooler ROG Gaming AMD Compatible
+Cooler Intel BÃ¡sico con Base de Cobre
+Cooler Intel BÃ¡sico con Base de Aluminio
+
+--- SILLAS-GAMER ---
+Silla Gamer AbaddonX Rojo PVC Reclinable 160Â°
+Silla Gamer AbaddonX Negro/Gris PVC Reclinable 160Â°
+Silla Gamer AbaddonX Negro Entero PVC Reclinable 160Â°
+Silla Gamer AbaddonX Negro/Rojo Tela Reclinable 160Â°
+Silla Gamer AbaddonX Negro/Gris Tela Reclinable 160Â°
+Silla Gamer AbaddonX Negro Entero Tela Reclinable 160Â°
+
